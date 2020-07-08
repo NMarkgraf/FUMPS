@@ -41,7 +41,13 @@ makeSkriptOfType("DozentenSkript")
 
 ```{r setUpChildren, eval=TRUE, include=FALSE}
 childrenToInclude <- c(
-    "Kind-Vorlage"
+    "Einleitung",
+#    "AufbauDerZahlen",
+#    "Grundrechenarten",
+#    "Funktionen",
+#    "Geraden",
+#    "QuadratischeFunktionen",
+     ""
 )
 if (FALSE) { # Zum debuggen auf TRUE setzen!
   childrenToInclude <- c("Kind-Vorlage")
@@ -56,12 +62,12 @@ includeChild <- function(name, children=childrenToInclude, all=FALSE) {
 ```{r child = './Inhalte/Einleitung.Rmd', eval=includeChild("Einleitung")}
 ```
 
-
-```{r child = './Inhalte/Kind-Vorlage.Rmd', eval=includeChild("Kind-Vorlage")}
-```
-
 ```{r child = './private/private-Vorstellung.Rmd', eval = privateVorstellung}
 ```
+
+```{r child = './Inhalte/AufbauDerZahlen.Rmd', eval=includeChild("AufbauDerZahlen")}
+```
+
 
 
 ```{r finalize, include=FALSE}

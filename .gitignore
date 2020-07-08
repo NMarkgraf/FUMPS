@@ -37,3 +37,12 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+FUMS.log
+FUMS.tex
+include-notes.tex
+include_exclude.log
+style.log
+typography.log
+
+pandoc-filter/__pycache__

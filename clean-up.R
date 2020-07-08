@@ -34,22 +34,7 @@ suffixes.dir <- c(
 )
 
 scripts <- c(
-    "Wissenschaftliche-Methodik",
-    "DES-Anhang",
-    "NextGen",
-    "BlubberZisch",
-    "Datenerhebung-Statistik",
-    "Etwas-R-am-Abend",
-    "Masterskript",
-    "MathGrundlDWInfo",
-    "OperationsResearch",
-    "Praxis-der-Datenanalyse",
-    "QM-Wirtschaftsinformatik",
-    "QuantMethonden-Evaluationsforschung",
-    "Marketing-Controlling",
-    "WissMethoden-QuantitativeDatenanalyse",
-    "QM-MathematikStatistik-Statistik",
-    "Unternehmenskommunikation"
+    "FUMS"
 )
 
 

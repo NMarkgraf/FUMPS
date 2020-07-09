@@ -1,0 +1,109 @@
+```{r setup-Bruchrechnung, include=FALSE}
+# ---------------------------------------------------------------------------
+#% maintainer:
+#%   - Norman Markgraf (nmarkgraf@hotmail.com)
+#%
+# ---------------------------------------------------------------------------
+source("../prelude.R")
+initPart(
+    "Bruchrechnung",  # Dateiname ohne Suffix
+    "Bruchrechnung"        # Verzeichnisname im Bilderverzeichnis 
+    )
+pathToImages <- getPathToImages()
+# ---------------------------------------------------------------------------
+
+library(mosaic)
+
+```
+
+### Bruchrechnung
+
+Ein Bruch besteht aus einer Zahl $z$ (genannt **Zähler**) und 
+einer Zahl $n \neq 0$ (genannt **Nenner**), so dass:
+$$z:n = \frac{z}{n} = z/n$$
+
+**Rechenregeln für Brüche:**
+
+:::::: {.columns}
+::: {.column width="49%"}
+- Addition: 
+$$\frac{a}{b} + \frac{c}{d} = \frac{a\cdot d + c \cdot b}{b \cdot d}$$
+
+- Subtraktion:
+$$\frac{a}{b} - \frac{c}{d} = \frac{a\cdot d - c \cdot b}{b \cdot d}$$
+:::
+::: {.column width="49%"}
+
+- Multiplikation:
+$$\frac{a}{b} \cdot \frac{c}{d} = \frac{a\cdot c }{b \cdot d}$$
+
+- Division:
+$$\frac{a}{b} : \frac{c}{d} = \frac{a\cdot d }{b \cdot c}$$
+:::
+::::::
+
+- Kürzen bzw. erweitern:
+$$\frac{a \cdot c}{b \cdot c} = \frac{a}{b} \cdot \frac{c}{c}= \frac{a}{b} \cdot \frac{1}{1} =  \frac{a}{b} \cdot 1 = \frac{a}{b}$$
+**Merksatz:** *In Differenzen und in Summen, da kürzen nur die Dummen!*
+
+### Übungsaufgaben
+
+:::::: {.columns}
+::: {.column width="49%"}
+
+Kürzen Sie die Brüche, und stellen Sie  das Ergebnis als Dezimalzahl dar.
+
+
+
+1. $\frac{12}{15}=$
+
+2. $\frac{45}{18}=$
+
+3. $\frac{42}{56}=$
+
+4. $\frac{65}{15}=$
+
+5. $\frac{15x\cdot 12y}{4y\cdot5x\cdot 9}=$
+
+:::
+::: {.column width="49%"}
+
+Kürzen Sie die Brüche.
+
+
+
+1. $\frac{2xy}{(4x-2y)y}=$
+
+2. $\frac{2x-4y}{x-2y}=$
+
+3. $\frac{4x^2y}{2x\cdot 2y}=$
+
+4. $\frac{8x^2-4xy}{16x-8y}=$
+
+5. $\frac{3x\cdot 4y}{4x \cdot 3y}=$
+
+:::
+::::::
+
+### Übungsaufgaben
+
+Berechnen und kürzen Sie weitestmöglich
+
+:::::: {.columns}
+::: {.column width="49%"}
+
+...
+
+:::
+::: {.column width="49%"}
+
+...
+
+:::
+::::::
+
+
+```{r finish-Bruchrechnung, include=FALSE}
+rm(pathToImages)
+finalizePart()
+```

@@ -17,6 +17,9 @@ initPrelude()
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # tips <- assertData("tips.csv", "https://goo.gl/whKjnl")
 
+library(knitr)
+options(knitr.graphics.error = FALSE)
+
 # ---------------------------------------------------------------------------
 ```
 ```{r localKnitrButtonSetup, eval=!RENDEREDBYSCRIPT, echo=FALSE, include=FALSE}
@@ -42,7 +45,9 @@ makeSkriptOfType("DozentenSkript")
 ```{r setUpChildren, eval=TRUE, include=FALSE}
 childrenToInclude <- c(
     "Einleitung",
-#    "AufbauDerZahlen",
+    "AufbauZahlen",
+    "Bruchrechnung",
+    "BinomischeFormeln",
 #    "Grundrechenarten",
 #    "Funktionen",
 #    "Geraden",
@@ -53,7 +58,7 @@ if (FALSE) { # Zum debuggen auf TRUE setzen!
   childrenToInclude <- c("Kind-Vorlage")
 }
 includeChild <- function(name, children=childrenToInclude, all=FALSE) {
-    ifelse(all, TRUE, ifelse(name %in% children, TRUE, FALSE))
+    ifelse(all, TRUE, (name %in% children))
 }
 ```
 
@@ -65,9 +70,14 @@ includeChild <- function(name, children=childrenToInclude, all=FALSE) {
 ```{r child = './private/private-Vorstellung.Rmd', eval = privateVorstellung}
 ```
 
-```{r child = './Inhalte/AufbauDerZahlen.Rmd', eval=includeChild("AufbauDerZahlen")}
+```{r child = './Inhalte/AufbauZahlen.Rmd', eval = includeChild("AufbauZahlen")}
 ```
 
+```{r child = './Inhalte/Bruchrechnung.Rmd', eval = includeChild("Bruchrechnung")}
+```
+
+```{r child = './Inhalte/BinomischeFormeln.Rmd', eval = includeChild("BinomischeFormeln")}
+```
 
 
 ```{r finalize, include=FALSE}

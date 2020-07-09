@@ -40,6 +40,9 @@ vignettes/*.pdf
 
 FUMS.log
 FUMS.tex
+FUMS.pdf
+FUMS_files/
+FUMS_caches/
 include-notes.tex
 include_exclude.log
 style.log

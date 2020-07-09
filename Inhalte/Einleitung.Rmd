@@ -20,19 +20,22 @@ library(mosaic)
  
  
 ### Wofür das kurze Fresh Up?
+
+::: {.scriptsize}
 Liebe Studierenden,
 
 Mathematik ist eine **Mitmachsportart** und **wer rastet, der rostet**! 
-Für viele von Ihnen ist die Schule, und damit der letzte Kontakt zur Mathematik, schon gefühlte Jahrtausende her.
+Für viele von Ihnen ist die Schule, und damit der letzte Kontakt zur Mathematik, 
+schon gefühlte Jahrtausende her.
 
 
 Dennoch haben Sie sich für ein Studium entschieden, welches Mathematik als eine 
 Grundlage ansieht.
-Das heißt: Sie müssen sich das Wissen aus vergangenen Tagen wieder aneignen!
+Das heißt: Sie müssen sich das Wissen aus vergangenen Tagen wieder aneignen!
 
 Dieses kurze **Fresh Up-Skript** soll Ihnen dabei helfen wieder auf einen, 
 vielleicht schon abgefahren geglaubten, Zug aufzuspringen. 
-Nutzen Sie es! 
+Nutzen Sie es!
 
 So sollten vor dem ersten Vorlesungstermin so viele Aufgaben wie mögich und bis
 zur zweiten Semesterwoche alle Aufgaben zu Hause gerechnet haben.
@@ -40,7 +43,8 @@ Vergleichen Sie ihre Lösungen bitte zuerst mit anderen Kommiliton*innen, bevor
 sie nach einer Musterlösung fragen.
 
 Die Aufgaben sind zwar nicht ‚klausurrelevant‘, das meint, die 
-Aufgabenstellungen werden so nicht in der Klausur vorkommen werden. 
+Aufgabenstellungen werden so nicht in der Klausur vorkommen werden.
+
 **ABER:** Ohne die Kompetenzen, welche Sie zum Lösen der Aufgaben benötigen 
 und die Sie wieder einüben sollen, werden Sie kaum Klausuraufgaben lösen können.
 
@@ -51,8 +55,9 @@ Also Anleitung raus (ggf. googlen!) und benutzen!
 
 Viel Erfolg wünscht Ihnen Ihr 
 Norman Markgraf
+:::
 
-[Hinweis: Dieses Skript basiert auf einem Skript von der FOM von Prof. Dr. Matthias Ross. Bitte teilen Sie mit (N. Markgraf) Fehler und Ungereimtheiten mit, Verbesserungsvorschläge sind sehr willkommen. Dies hilft, dieses Skript in Zukunft  zu verbessern. Danke!]{.tiny}
+[Hinweis: Dieses Skript basiert zum Teil auf einem Skript von Prof. Dr. Matthias Ross (FOM). Bitte teilen Sie mir (N. Markgraf) Fehler und Ungereimtheiten mit, Verbesserungsvorschläge sind sehr willkommen. Dies hilft, dieses Skript in Zukunft zu verbessern. Danke!]{.tiny}
 
 
 

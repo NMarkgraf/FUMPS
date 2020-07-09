@@ -1,0 +1,269 @@
+```{r setup-AufbauZahlen, include=FALSE}
+# ---------------------------------------------------------------------------
+#% maintainer:
+#%   - Norman Markgraf (nmarkgraf@hotmail.com)
+#%
+# ---------------------------------------------------------------------------
+source("../prelude.R")
+initPart(
+    "AufbauZahlen",  # Dateiname ohne Suffix
+    "AufbauZahlen"        # Verzeichnisname im Bilderverzeichnis 
+    )
+pathToImages <- getPathToImages()
+# ---------------------------------------------------------------------------
+
+library(mosaic)
+library(latex2exp)
+# ggf. vorher: (für geom_rrect)
+# devtools::install_github("hrbrmstr/statebins")
+library(statebins)
+
+
+```
+
+### Aufbau des Zahlensystems
+
+:::::: {.columns}
+::: {.column width="49%"}
+
+Zahlen lassen sich zu Mengen zusammen fassen und mit Operationen
+(z.B. der Addition, Subtraktion, Multiplikation und Division) versehen.
+
+
+
+In der Schule wird in der Regel ein kleiner Ausschnitt dieser Zahlensysteme
+betrachtet. 
+
+
+
+Rechts ist ein Ausschnitt der für uns wichtigsten Zahlensysteme dargestellt.
+
+
+Jedes Zahlensystem, uns die darauf definierten Operationen, hat unterschiedliche
+Eigenschaften. 
+
+
+
+:::
+::: {.column width="49%"}
+
+```{r echo=FALSE, out.width="95%", fig.align='center'}
+
+xmin <- -4
+xmax <- 4
+ymin <- 0
+ymax <- 7
+
+fontsize <- 4.0
+
+ticky <- 0.2
+tucky <- 1.5
+tacky <- 5
+
+tick <- 0.0
+
+c <- tibble(title = "Komplexe Zahlen", 
+            subtitle = TeX("\\textbf{C} = Menge reellen und imaginären Zahlen", 
+                           output = "character"),
+            xmin = (xmin + tick), 
+            xmax = (xmax - tick), 
+            ymin = (ymin + tacky*tick), 
+            ymax = (ymax - tick))
+
+tick <- 0.2
+
+r <- tibble(title = "Reelle Zahlen", 
+            subtitle = TeX("\\textbf{R} = Menge rationalen und irrationalen Zahlen", 
+                           output = "character"),
+            xmin = (xmin + tick), 
+            xmax = (xmax - tick), 
+            ymin = (ymin + tacky*tick), 
+            ymax = (ymax - tick))
+
+tick <- 2 * 0.2
+
+q <- tibble(title = "Rationale Zahlen",
+            subtitle = TeX("\\textbf{Q} = Menge der Brüche", 
+                           output = "character"),
+            xmin = (xmin + tick), 
+            xmax = (xmax - tick), 
+            ymin = (ymin + tacky*tick), 
+            ymax = (ymax - tick))
+
+tick <- 3 * 0.2
+
+z <- tibble(title = "Ganze Zahlen",
+            subtitle = TeX("$\\textbf{Z}=\\left{...,-3, -2, -1, 0, 1 ,2, 3,...\\right}$",
+                           output = "character"),
+            xmin = (xmin + tick), 
+            xmax = (xmax - tick), 
+            ymin = (ymin + tacky*tick), 
+            ymax = (ymax - tick))
+
+tick <- 4 * 0.2
+
+n0 <- tibble(title = "Natürliche Zahlen mit Null", 
+             subtitle = TeX("$\\textbf{N_0}=\\left{0,1,2,3,... \\right}$", 
+                            output="character"),
+            xmin = (xmin + tick), 
+            xmax = (xmax - tick), 
+            ymin = (ymin + tacky*tick), 
+            ymax = (ymax - tick))
+
+tick <- 5 * 0.2
+
+n <- tibble(title = "Natürliche Zahlen", 
+            subtitle =  TeX("$\\textbf{N}=\\left{1,2,3,... \\right}\\,$", 
+                            output = "character"),
+            xmin = (xmin + tick), 
+            xmax = (xmax - tick), 
+            ymin = (ymin + tacky*tick), 
+            ymax = (ymax - tick))
+
+
+df <- rbind(c,r,q,z, n0, n)
+
+ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
+    statebins:::geom_rrect( 
+                  alpha = 0.10, 
+                  radius = grid::unit(10,"pt"), 
+                  size = .2,
+                  color = rep("green", 6), 
+                  fill = rep("darkgreen", 6)) +
+    geom_text(aes(x = 0, 
+                  y = ymin + 0.8,
+                  size = fontsize,
+                  label = title)) + 
+    geom_text(aes(x = 0/2, 
+                  y = ymin + 0.4, 
+                  size = fontsize,
+                  label = subtitle), 
+              parse = TRUE) +
+    theme_minimal() + 
+    theme(
+      axis.line = element_blank(),
+      axis.text.x = element_blank(),
+      axis.text.y = element_blank(),
+      axis.ticks = element_blank(),
+      axis.title.x = element_blank(),
+      axis.title.y = element_blank(),
+      legend.position = "none",
+      panel.background = element_blank(),
+      panel.border = element_blank(),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      plot.background = element_blank()
+    )
+
+```
+
+:::
+::::::
+
+Diese zu sehen, zu verstehen und entsprechend richtig Anzuwenden ist ein
+wesendlicher Teil der Mathematik. 
+
+In der Mathatik formuliert man dies gerne in der Form von (Rechen-)Regeln.
+
+Sie sind die Voraussetzung für die Korrektheit bei allen finanz-, wirtschafts- 
+und informationsmathematischen Anwendungen und daher der Startpunkt von FUMS.
+
+### Elementare Rechenregeln
+
+::::::::: {.footnotesize}
+
+- Von links nach rechts rechnen
+
+- Klammern als Erstes ausrechnen (von innen nach außen)
+
+- Potenz- vor Punktrechnung (multiplizieren, dividieren)
+
+- Punkt- vor Strichrechnung (addieren, subtrahieren)
+
+- Das Multiplikationszeichen (Punkt) kann weggelassen werden
+
+**Merksatz:** KLAPS = **Kla**mmer geht vor **P**unkt- und **S**trichrechnung.
+
+- Negative Zahlen und Subtraktion: a + (-b) = a - b 
+
+- In der Regel zwei Operationen für jede Zahlenmenge als Grundoperationen (Addition $+$ und Multiplikation $\cdot$)
+
+- Rechenregeln:
+
+:::::: {.columns}
+::: {.column width="25%"}
+
+:::
+::: {.column width="40%"}
+**Addition**
+:::
+::: {.column width="35%"}
+**Multiplikation:**
+:::
+::::::
+
+:::::: {.columns}
+::: {.column width="25%"}
+*Kommutativgesetz:*
+:::
+::: {.column width="40%"}
+$a + b = b + a$
+:::
+::: {.column width="35%"}
+$a \cdot b = b \cdot a$
+:::
+::::::
+
+:::::: {.columns}
+::: {.column width="25%"}
+*Assoziativgesetz:*
+:::
+::: {.column width="40%"}
+$\begin{aligned}(a + b) + c &=a + ( b + c ) \\ &= a+b+c\end{aligned}$
+:::
+::: {.column width="35%"}
+$\begin{aligned}(a \cdot b) \cdot c &=a \cdot ( b \cdot c ) \\ &= a\cdot b\cdot c\end{aligned}$
+:::
+::::::
+:::::: {.columns}
+
+::: {.column width="25%"}
+*Distributivgesetz:*
+:::
+::: {.column width="75%"}
+$$\begin{aligned}\phantom{a \cdot}(a + b) \cdot c &= a \cdot c + b \cdot c\\
+   a \cdot (b + c) \phantom{\cdot c\,\,\,}&= a \cdot b + a \cdot c
+   \end{aligned}$$
+
+:::
+::::::
+
+:::::::::
+
+### Übungsaufgabe
+
+Lösen Sie die Klammern auf und fassen Sie so weit wie möglich zusammen:
+
+1. $3+(- 8) - (- 5) =$
+
+2. $-(- x) - 2x + x =$
+
+3. $(- x)(- y) =$
+
+4. $((1+6) - (2+3)) + 4=$
+
+5. $2+3\cdot(4\cdot 5+6-8) - (-8)(-7) =$
+
+6. $4-2\cdot(-3\cdot(5-4)\cdot(-4)\cdot(-1)) + (2-7)(7-2)=$
+
+7. $2+(4-2\cdot(32-22)) + 4=$
+ 
+8. $(s+t)(s+t)+(s-t)(s-t)+2(s+t)(s-t)=$
+
+9. $(2s-3t)(3s-2t) - 6(s-t)(s+t) - 12t(t-s) + st =$
+
+
+```{r finish-AufbauZahlen, include=FALSE}
+rm(pathToImages)
+finalizePart()
+```

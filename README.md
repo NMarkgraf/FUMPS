@@ -1,4 +1,5 @@
-# Technische Vorlage für die Vorlesungsskripte
+# FUMS
 
-Hier wir der technische Unterbau für die Vorlesungsskripte gewartet.
+Fresh Up your Math Skills -- Crash-Kurs der Mathematik für Studierende der (W.-)Informatik
 
+Quasi der kleine Vorkurs mit den wichtistens Wiederholungen der Schulmathematik.

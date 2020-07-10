@@ -1,0 +1,86 @@
+```{r setup-Potenzgesetze, include=FALSE}
+# ---------------------------------------------------------------------------
+#% maintainer:
+#%   - Norman Markgraf (nmarkgraf@hotmail.com)
+#%
+# ---------------------------------------------------------------------------
+source("../prelude.R")
+initPart(
+    "Potenzgesetze",  # Dateiname ohne Suffix
+    "Potenzgesetze"        # Verzeichnisname im Bilderverzeichnis 
+    )
+pathToImages <- getPathToImages()
+# ---------------------------------------------------------------------------
+
+library(mosaic)
+
+```
+
+
+### Potenzgesetze
+
+:::::: {.columns}
+::: {.column width="49%"}
+
+**Potenzregeln:**
+
+1. $a^0 \stackrel{\text{def}}{=} 1$
+
+2. $a^x \cdot a^y = a^{x+y}$
+
+3. $a^x \cdot b^x = (a \cdot b)^x$
+
+4. $\left(a^x)^y = a^{x \cdot y}$
+
+5. $a^{-x} = \frac{1}{a^x}$
+
+6. $\frac{a^x}{a^y} = a^{x-y}$
+
+7. $\frac{a^x}{b^x} = \left(\frac{a}{b}\right)^x$
+
+8. $\sqrt[n]{a} \stackrel{\text{def}}{=} a^{\frac{1}{n}}$
+
+:::
+::: {.column width="49%"}
+:::
+
+**Beispiele:**
+
+1. $5^0 = 1$
+
+2. $2^3 \cdot 2^4 = 2^{3+4} = 2^7$
+
+3. $3^5 \cdot 4^5 = (3 \cdot 4)^5$
+
+4. $\left(2^3\right)^4 = 2^{3\cdot 4} = 2^{12}$
+
+5. $2^{-3} = \frac{1}{2^3}$
+
+6. $\frac{6^4}{6^2} = 6^{4-2}=6^2$
+
+7. $\frac{10^5}{5^5} = \left(\frac{10}{5}\right)^5=2^5$
+
+8. $\sqrt[5]{32} = 32^{\frac{1}{5}} =32^{0{,}2} = 2$
+
+::::::
+
+
+### Übungsaufgaben
+
+a) $\frac{\left(2^2\right)^3 \cdot \left(2^2\right)^4}{2^{14}}=$
+
+b) $\frac{5^7\cdot \left(2 \cdot 5\right)^3\cdot 2^7}{\left(2 \cdot 2 \cdot 5\right)^7} =$ 
+
+...
+
+a) $\sqrt{\sqrt{16a^2x^2}} \cdot \sqrt{a^3x} \cdot \sqrt[3]{a^{-6}x^{-3}}=$
+
+b) $\sqrt{2^6y^4}\cdot\left(x^4 \cdot y^8\right)\cdot x \cdot \left(\sqrt{2^4}\right)^{-1}=$
+
+...
+
+
+```{r finish-Potenzgesetze, include=FALSE}
+rm(pathToImages)
+finalizePart()
+```

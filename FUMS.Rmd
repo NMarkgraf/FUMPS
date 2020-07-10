@@ -48,6 +48,7 @@ childrenToInclude <- c(
     "AufbauZahlen",
     "Bruchrechnung",
     "BinomischeFormeln",
+    "Potenzgesetze",
 #    "Grundrechenarten",
 #    "Funktionen",
 #    "Geraden",
@@ -79,6 +80,8 @@ includeChild <- function(name, children=childrenToInclude, all=FALSE) {
 ```{r child = './Inhalte/BinomischeFormeln.Rmd', eval = includeChild("BinomischeFormeln")}
 ```
 
+```{r child = './Inhalte/Potenzgesetze.Rmd', eval = includeChild("Potenzgesetze")}
+```
 
 ```{r finalize, include=FALSE}
 # ---------------------------------------------------------------------------

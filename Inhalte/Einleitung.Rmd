@@ -16,8 +16,6 @@ library(mosaic)
 
 ```
 
-# Einleitung
- 
  
 ### Wofür das kurze Fresh Up?
 

@@ -24,16 +24,16 @@ Für zwei reelle nicht-negative Zahlen $a$ und $b$ gilt:
 $c = \log_a b \Longleftrightarrow a^c = b$
 
 Der **Logarithmus von $b$ zur Basis $a$** gibt also die Antwort auf die Frage
-"Mit welchem Wert muss ich $a$ potenzieren, damit ich als Ergbniss $b$ erhalte.
+"Mit welchem Wert muss ich $a$ potenzieren, damit ich als Ergbniss $b$ erhalte?"
 
 
-**Besondere Bases:**
+**Besondere Basen:**
 
-- Basis $10$ / **dekadischer Logarithmus**: $\lg(x) = \log_{10}(x)$
+- Basis $10$ -- **dekadischer Logarithmus**: $\lg(x) = \log_{10}(x)$
 
-- Basis $2$  / **binärer**/**dualer Logarithmus**: $\text{lb}(x) = \text{ld}(x) = \log_2(x)$
+- Basis $2$  -- **binärer**/**dualer Logarithmus**: $\text{lb}(x) = \text{ld}(x) = \log_2(x)$
 
-- Basis $e$  / **natürlicher Logarithmus**: $\ln(x) = \log_e(x)$
+- Basis $e$  -- **natürlicher Logarithmus**: $\ln(x) = \log_e(x)$
 
 Dabei ist $e$ die Eulersche Zahl: 
 
@@ -51,7 +51,7 @@ $e \approx 2{,}71828 \, 18284 \, 59045 \, 23536 \, 02874 \, 71352 \, 66249 \, 77
 
 5. $e^{\ln(x)} = x$
 
-6. *Taschenrechnerformel*:
+6. **Taschenrechnerformel**:
 
    $\log_x(a) = \frac{\log_b(a)}{\log_b(x)}$ für alle $b>0$
 

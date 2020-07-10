@@ -20,20 +20,24 @@ library(mosaic)
 ### Quadratische Gleichungen
 
 Eine **quadratische Gleichung** ist eine Gleichung, welche sich in die Form
+
 $$ax^2+bx+c=0$$
-mit <math>a\neq 0</math> umschreiben lässt. 
-Man nennt diese Form auch die **Allgemeine Form** der quadratischen Gleichung.
-Dabei nennt man $a$, $b$, $c$ die **Koeffizienten** und $x$ die **Variable**.
+mit $a\neq 0$ umschreiben lässt. 
+
+Man nennt diese Form auch die **Allgemeine Form**, die $a$, $b$, $c$ die 
+**Koeffizienten** und $x$ die **Variable** der quadratischen Gleichung.
 
 Ist $b=0$, so spricht man von einer **reinquadratischen Gleichung**.
 
-Ist $a=1$, so bezeichnet man die Gleichung als "in **Normalform**.
+Für $a=1$ nennt man die Form auch **Normalform**.
 
-Für $a \neq 0$ lässt sich jede *allgemeine Form* durch $p=\frac{b}{a}$ und $q=\frac{c}{a}$ in die *Normalform*:
+Für $a \neq 0$ lässt sich jede *allgemeine Form* durch 
+$p=\frac{b}{a}$ und $q=\frac{c}{a}$ in die *Normalform*
 
-$$x^2 + px +q =0$$
+$$x^2 + px +q = 0$$
 
 umformen.
+
 
 ### Lösung quadratischer Gleichungen
 
@@ -44,7 +48,7 @@ $$x_{1,2} = -\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2-q}$$
 bestimmen. 
 
 Die Anzahl der möglichen reellwertigen Lösungen ist durch die **Diskriminante**
-$$D = \sqrt{\left(\frac{p}{2}\right)^2-q} = \sqrt{\left(\frac{b}{2a}\right)^2-c}$$
+$$D = \left(\frac{p}{2}\right)^2-q = \left(\frac{b}{2a}\right)^2-c$$
 bestimmt. 
 Für Lösungen in den reellen Zahlen gilt:
 
@@ -53,13 +57,28 @@ Für Lösungen in den reellen Zahlen gilt:
 - $D < 0 \Rightarrow$ die Gleichung hat keine Lösungen.
 
 
+### Scheitelpunktsform
+
+Die **Scheitelpunktsform** der quadratischen Gleichung ist eine Variation der
+reinquadratischen Form:
+
+$$a \cdot \left(x - x_s\right)^2 + y_s=0$$
+
+Sind die Nullstellen $x_1$ und $x_2$ bekannt, so gilt:
+
+- $\displaystyle x_s = \frac{x_1 + x_2}{2}$
+
+- $\displaystyle y_s = -\frac{a}{4}\cdot\left(x_2-x_1\right)^2$
+
+
 ### (Wurzel-)Satz von Vieta
 
 ...
 
 ### Übungsaufgaben
 
-Lösen Sie die quadratischen Gleichungen:
+Lösen Sie die quadratischen Gleichungen und geben Sie für jede Gleichung die
+Scheitelpunktsform an:
 
 1. $x^2-6x+8=0$
 

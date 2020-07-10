@@ -51,7 +51,6 @@ childrenToInclude <- c(
     "Potenzgesetze",
     "Logarithmen",
     "QuadratischeGleichungen",
-#    "Grundrechenarten",
 #    "Funktionen",
 #    "Geraden",
 #    "QuadratischeFunktionen",

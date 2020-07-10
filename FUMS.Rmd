@@ -50,6 +50,7 @@ childrenToInclude <- c(
     "BinomischeFormeln",
     "Potenzgesetze",
     "Logarithmen",
+    "QuadratischeGleichungen",
 #    "Grundrechenarten",
 #    "Funktionen",
 #    "Geraden",
@@ -85,6 +86,9 @@ includeChild <- function(name, children=childrenToInclude, all=FALSE) {
 ```
 
 ```{r child = './Inhalte/Logarithmen.Rmd', eval = includeChild("Logarithmen")}
+```
+
+```{r child = './Inhalte/QuadratischeGleichungen.Rmd', eval = includeChild("QuadratischeGleichungen")}
 ```
 
 ```{r finalize, include=FALSE}

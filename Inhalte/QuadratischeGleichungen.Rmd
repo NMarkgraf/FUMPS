@@ -1,0 +1,65 @@
+```{r setup-QuadratischeGleichungen, include=FALSE}
+# ---------------------------------------------------------------------------
+#% maintainer:
+#%   - Norman Markgraf (nmarkgraf@hotmail.com)
+#%
+# ---------------------------------------------------------------------------
+source("../prelude.R")
+initPart(
+    "QuadratischeGleichungen",  # Dateiname ohne Suffix
+    "QuadratischeGleichungen"        # Verzeichnisname im Bilderverzeichnis 
+    )
+pathToImages <- getPathToImages()
+# ---------------------------------------------------------------------------
+
+library(mosaic)
+
+```
+
+
+### Quadratische Gleichungen
+
+Eine **quadratische Gleichung** ist eine Gleichung, welche sich in die Form
+$$ax^2+bx+c=0$$
+mit <math>a\neq 0</math> umschreiben lässt. 
+Man nennt diese Form auch die **Allgemeine Form** der quadratischen Gleichung.
+Dabei nennt man $a$, $b$, $c$ die **Koeffizienten** und $x$ die **Variable**.
+
+Ist $b=0$, so spricht man von einer **reinquadratischen Gleichung**.
+
+Ist $a=1$, so bezeichnet man die Gleichung als "in **Normalform**.
+
+Für $a \neq 0$ lässt sich jede *allgemeine Form* durch $p=\frac{b}{a}$ und $q=\frac{c}{a}$ in die *Normalform*:
+
+$$x^2 + px +q =0$$
+
+umformen.
+
+Die Lösungen der allgemeinen Form lassen sich anhand der Formel
+$$x_{1,2} = \frac{-b\pm\sqrt{b^2-4ac}}{2a},$$
+die der *Normalform* mit Hilfe der $pq$-Formel
+$$x_{1,2} = -\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2-q}$$
+bestimmen. 
+
+Die Anzahl der möglichen reellwertigen Lösungen ist durch die **Diskriminante**
+$$D = \sqrt{\left(\frac{p}{2}\right)^2-q} = \sqrt{\left(\frac{b}{2a}\right)^2-c}$$
+bestimmt. 
+Für Lösungen in den reellen Zahlen gilt:
+
+- $D > 0 \Rightarrow$ die Gleichung hat zwei Lösungen.
+- $D = 0 \Rightarrow$ die Gleichung hat eine Lösungen.
+- $D < 0 \Rightarrow$ die Gleichung hat keine Lösungen.
+
+
+### (Wurzel-)Satz von Vieta
+
+...
+
+### Übungsaufgaben
+
+
+
+```{r finish-QuadratischeGleichungen, include=FALSE}
+rm(pathToImages)
+finalizePart()
+```

@@ -41,13 +41,13 @@ $e \approx 2{,}71828 \, 18284 \, 59045 \, 23536 \, 02874 \, 71352 \, 66249 \, 77
  
 ### Rechenregeln
 
-1. $\log_x(a \cdotb) = \log_x(a) + \log_x(b)$
+1. $\log_x(a \cdot b) = \log_x(a) + \log_x(b)$
 
 2. $\log_x\left(\frac{a}{b}\right) = \log_x(a) - \log_x(b)$
 
 3. $\log_x\left(a^b\right) = b \cdot log_x(a)$
 
-4. $\ln(e^x) = x \cdot \ln(e) = x$
+4. $\ln\left(e^x\right) = x \cdot \ln(e) = x$
 
 5. $e^{\ln(x)} = x$
 

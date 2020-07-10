@@ -30,7 +30,7 @@ library(mosaic)
 
 3. $a^x \cdot b^x = (a \cdot b)^x$
 
-4. $\left(a^x)^y = a^{x \cdot y}$
+4. $\left(a^x\right)^y = a^{x \cdot y}$
 
 5. $a^{-x} = \frac{1}{a^x}$
 
@@ -42,7 +42,6 @@ library(mosaic)
 
 :::
 ::: {.column width="49%"}
-:::
 
 **Beispiele:**
 
@@ -62,6 +61,7 @@ library(mosaic)
 
 8. $\sqrt[5]{32} = 32^{\frac{1}{5}} =32^{0{,}2} = 2$
 
+:::
 ::::::
 
 

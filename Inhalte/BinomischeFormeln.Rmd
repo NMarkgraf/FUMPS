@@ -41,7 +41,7 @@ include_graphics(file.path(pathToImages, "Bino2.png"))
 
 3. $(a+b)(a-b) = a^2 - b^2$
 
-```{r echo=FALSE, out.width="20%"}
+```{r echo=FALSE, eval=FALSE, out.width="20%"}
 # include_graphics(file.path(pathToImages, "Bino3.png"))
 ```
 
@@ -52,7 +52,7 @@ include_graphics(file.path(pathToImages, "Bino2.png"))
 
 1. $(x-y)^2-(x+y)^2 + 4xy =$
 
-2. $(s-t)^2-2(s-t)(s+t)+(s+t)^2-3s^2 =$
+2. $(s-t)^2-2(s-t)(s+t)+(s+t)^2-3s^2=$
 
 3. $xy+\left(-1+\sqrt{xy}\right)\left(-1-\sqrt{xy}\right)=$
 

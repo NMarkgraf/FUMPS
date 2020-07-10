@@ -73,7 +73,19 @@ Sind die Nullstellen $x_1$ und $x_2$ bekannt, so gilt:
 
 ### (Wurzel-)Satz von Vieta
 
-...
+Für die Lösungen $x_1$ und $x_2$ einer quadratischen Gleichung in Normalform 
+gilt:
+
+$$x_1 \cdot x_2 = q \quad \text{ und }\quad -(x_1+x_2) = p$$
+
+**Begründung:**
+
+Sind $x_1$ und $x_2$ Lösungen der quadratischen Gleichung, so ist
+
+$$(x-x_1)\cdot(x-x_2) = x^2 \underbrace{-(x_1+x_2)}_{=p}\cdot x + \underbrace{x_1\cdot x_2}_{=q}=0$$
+und die Behauptung gilt, nach *Koeffizientenvergleich*.
+
+
 
 ### Übungsaufgaben
 

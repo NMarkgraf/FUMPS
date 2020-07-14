@@ -37,6 +37,7 @@ if (!exists("prelude.rendertools")) {
 }
 
 createPrivateYaml("Dozent*in", "WiSe 2020/21", "Studienort")
+createPrivateYaml("Dipl.-Math. Norman Markgraf", "WiSe 2020/21", "Düsseldorf/Münster/Gütersloh")
 
 # Erzeuge Skript "DozentenSkript", "StudierendenSkript" oder "LösungsSkript": 
 makeSkriptOfType("DozentenSkript") 
@@ -51,6 +52,7 @@ childrenToInclude <- c(
     "Potenzgesetze",
     "Logarithmen",
     "QuadratischeGleichungen",
+    "Funktionen",
 #    "Funktionen",
 #    "Geraden",
 #    "QuadratischeFunktionen",
@@ -88,6 +90,9 @@ includeChild <- function(name, children=childrenToInclude, all=FALSE) {
 ```
 
 ```{r child = './Inhalte/QuadratischeGleichungen.Rmd', eval = includeChild("QuadratischeGleichungen")}
+```
+
+```{r child = './Inhalte/Funktionen.Rmd', eval = includeChild("Funktionen")}
 ```
 
 ```{r finalize, include=FALSE}

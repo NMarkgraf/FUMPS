@@ -24,8 +24,8 @@ library(statebins)
 ### Aufbau des Zahlensystems
 
 :::::: {.columns}
-::: {.column width="49%"}
-
+::: {.column width="40%"}
+:::: {.small}
 Zahlen lassen sich zu Mengen zusammen fassen und mit Operationen
 (z.B. der Addition, Subtraktion, Multiplikation und Division) versehen.
 
@@ -43,9 +43,9 @@ Jedes Zahlensystem, uns die darauf definierten Operationen, hat unterschiedliche
 Eigenschaften. 
 
 
-
+::::
 :::
-::: {.column width="49%"}
+::: {.column width="59%"}
 
 ```{r echo=FALSE, out.width="95%", fig.align='center'}
 
@@ -104,7 +104,7 @@ tick <- 4 * 0.2
 
 n0 <- tibble(title = "Natürliche Zahlen mit Null", 
              subtitle = TeX("$\\textbf{N_0}=\\left{0,1,2,3,... \\right}$", 
-                            output="character"),
+                            output = "character"),
             xmin = (xmin + tick), 
             xmax = (xmax - tick), 
             ymin = (ymin + tacky*tick), 
@@ -160,6 +160,8 @@ ggplot(df, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax)) +
 :::
 ::::::
 
+:::: {.small}
+
 Diese zu sehen, zu verstehen und entsprechend richtig Anzuwenden ist ein
 wesendlicher Teil der Mathematik. 
 
@@ -167,6 +169,8 @@ In der Mathatik formuliert man dies gerne in der Form von (Rechen-)Regeln.
 
 Sie sind die Voraussetzung für die Korrektheit bei allen finanz-, wirtschafts- 
 und informationsmathematischen Anwendungen und daher der Startpunkt von FUMS.
+
+::::
 
 ### Elementare Rechenregeln
 
@@ -188,7 +192,7 @@ und informationsmathematischen Anwendungen und daher der Startpunkt von FUMS.
 
 - In der Regel zwei Operationen für jede Zahlenmenge als Grundoperationen (Addition $+$ und Multiplikation $\cdot$)
 
-- Rechenregeln:
+- **Rechenregeln:**
 
 :::::: {.columns}
 ::: {.column width="25%"}

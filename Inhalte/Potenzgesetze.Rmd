@@ -24,7 +24,7 @@ library(mosaic)
 
 **Potenzregeln:**
 
-1. $a^0 \stackrel{\text{def}}{=} 1$
+1. $a^0 \stackrel{\text{def}}{=} 1$\setlength{\itemsep}{12pt}
 
 2. $a^x \cdot a^y = a^{x+y}$
 
@@ -45,7 +45,7 @@ library(mosaic)
 
 **Beispiele:**
 
-1. $5^0 = 1$
+1. $5^0 = 1$\setlength{\itemsep}{12pt}
 
 2. $2^3 \cdot 2^4 = 2^{3+4} = 2^7$
 
@@ -67,7 +67,7 @@ library(mosaic)
 
 ### Übungsaufgaben
 
-a) $\frac{\left(2^2\right)^3 \cdot \left(2^2\right)^4}{2^{14}}=$
+a) $\frac{\left(2^2\right)^3 \cdot \left(2^2\right)^4}{2^{14}}=$\setlength{\itemsep}{12pt}
 
 b) $\frac{5^7\cdot \left(2 \cdot 5\right)^3\cdot 2^7}{\left(2 \cdot 2 \cdot 5\right)^7} =$ 
 

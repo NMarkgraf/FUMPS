@@ -53,34 +53,41 @@ $$\frac{a \cdot c}{b \cdot c} = \frac{a}{b} \cdot \frac{c}{c}= \frac{a}{b} \cdot
 
 Kürzen Sie die Brüche, und stellen Sie  das Ergebnis als Dezimalzahl dar.
 
-
-
-1. $\frac{12}{15}=$
-
-2. $\frac{45}{18}=$
-
-3. $\frac{42}{56}=$
-
-4. $\frac{65}{15}=$
-
-5. $\frac{15x\cdot 12y}{4y\cdot5x\cdot 9}=$
-
 :::
 ::: {.column width="49%"}
 
 Kürzen Sie die Brüche.
 
+:::
+::::::
 
 
-1. $\frac{2xy}{(4x-2y)y}=$
 
-2. $\frac{2x-4y}{x-2y}=$
+:::::: {.columns}
+::: {.column width="49%"}
 
-3. $\frac{4x^2y}{2x\cdot 2y}=$
+1. $\displaystyle\frac{12}{15}=$\setlength{\itemsep}{12pt}
 
-4. $\frac{8x^2-4xy}{16x-8y}=$
+2. $\displaystyle\frac{45}{18}=$
 
-5. $\frac{3x\cdot 4y}{4x \cdot 3y}=$
+3. $\displaystyle\frac{42}{56}=$
+
+4. $\displaystyle\frac{65}{15}=$
+
+5. $\displaystyle\frac{15x\cdot 12y}{4y\cdot5x\cdot 9}=$
+
+:::
+::: {.column width="49%"}
+
+1. $\displaystyle\frac{2xy}{(4x-2y)y}=$\setlength{\itemsep}{12pt}
+
+2. $\displaystyle\frac{2x-4y}{x-2y}=$
+
+3. $\displaystyle\frac{4x^2y}{2x\cdot 2y}=$
+
+4. $\displaystyle\frac{8x^2-4xy}{16x-8y}=$
+
+5. $\displaystyle\frac{3x\cdot 4y}{4x \cdot 3y}=$
 
 :::
 ::::::
@@ -92,12 +99,28 @@ Berechnen und kürzen Sie weitestmöglich
 :::::: {.columns}
 ::: {.column width="49%"}
 
-...
+1. $\displaystyle\frac{3}{4}+\frac{2}{3}-\frac{1}{2}=$\setlength{\itemsep}{12pt}
+
+2. $\displaystyle\frac{2}{5}-\frac{1}{2}+\frac{1}{10}=$
+
+3. $\displaystyle\left(\frac{5}{4}-\frac{1}{2}\right)\cdot\left[\frac{3}{5}+\frac{11}{15}\right]=$
+
+4. $\displaystyle\left(\frac{4}{3}-\frac{5}{6}\right) \div \left[\frac{1}{2}-\frac{1}{4}\right]=$
+
+5. $\displaystyle\frac{\frac{1}{2}-\frac{1}{3}}{\frac{3}{4}-\frac{2}{3}}=$
 
 :::
 ::: {.column width="49%"}
 
-...
+6. $\displaystyle\frac{12 \cdot \left(\frac{2}{x}+4\right)}{\frac{1}{2x}\cdot \left(6+12x\right)\cdot 4}=$\setlength{\itemsep}{12pt}
+
+7. $\displaystyle\left(\frac{2}{5x}-2\cdot \frac{1}{4x}\right)\cdot x + \frac{2}{5} \cdot \frac{1}{4}=$
+
+8. $\displaystyle x\cdot \left(\frac{11}{12}-\frac{1}{6}\right) \cdot \left[\frac{4}{5x}+\frac{1}{x}\cdot\frac{8}{15}\right]=$
+
+9. $\displaystyle\left(\frac{3}{5}-\frac{1}{3}\right) \cdot \left(11-\frac{3}{2}-2\right)=$
+
+10. $\displaystyle\frac{6x-3y}{12x^2-6xy} \div \left[\frac{1}{x}-\frac{3}{4x}\right]=$
 
 :::
 ::::::

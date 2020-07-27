@@ -1,6 +1,6 @@
 ---
 title: "FUMS"
-subtitle: "Fresh-Up your Math Skills"
+subtitle: "**F**resh-**U**p your **M**ath **S**kills"
 ---
 
 ```{r setup, include=FALSE}

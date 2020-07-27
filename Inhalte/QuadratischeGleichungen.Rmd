@@ -21,18 +21,18 @@ library(mosaic)
 
 Eine **quadratische Gleichung** ist eine Gleichung, welche sich in die Form
 
-$$ax^2+bx+c=0$$
-mit $a\neq 0$ umschreiben lässt. 
+$$ax^2+bx+c=0 \qquad (a \neq 0)$$
+umschreiben lässt. 
 
-Man nennt diese Form auch die **Allgemeine Form**, die $a$, $b$, $c$ die 
+Man nennt diese Form auch **allgemeine Form**, die $a$, $b$, $c$  
 **Koeffizienten** und $x$ die **Variable** der quadratischen Gleichung.
 
 Ist $b=0$, so spricht man von einer **reinquadratischen Gleichung**.
 
-Für $a=1$ nennt man die Form auch **Normalform**.
+Für $a=1$ nennt man die Form **Normalform**.
 
 Für $a \neq 0$ lässt sich jede *allgemeine Form* durch 
-$p=\frac{b}{a}$ und $q=\frac{c}{a}$ in die *Normalform*
+$p=\frac{b}{a}$ und $q=\frac{c}{a}$ in *Normalform*
 
 $$x^2 + px +q = 0$$
 
@@ -41,9 +41,9 @@ umformen.
 
 ### Lösung quadratischer Gleichungen
 
-Die Lösungen der allgemeinen Form lassen sich anhand der Formel
+Die Lösungen der allgemeinen Form lassen sich anhand der **$abc$- oder auch "Mitternachts"-Formel**
 $$x_{1,2} = \frac{-b\pm\sqrt{b^2-4ac}}{2a},$$
-die der *Normalform* mit Hilfe der $pq$-Formel
+die der *Normalform* mit Hilfe der **$pq$-Formel**
 $$x_{1,2} = -\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2-q}$$
 bestimmen. 
 
@@ -86,13 +86,12 @@ $$(x-x_1)\cdot(x-x_2) = x^2 \underbrace{-(x_1+x_2)}_{=p}\cdot x + \underbrace{x_
 und die Behauptung gilt, nach *Koeffizientenvergleich*.
 
 
-
 ### Übungsaufgaben
 
 Lösen Sie die quadratischen Gleichungen und geben Sie für jede Gleichung die
 Scheitelpunktsform an:
 
-1. $x^2-6x+8=0$
+1. $x^2-6x+8=0$\setlength{\itemsep}{12pt}
 
 2. $-3x^2+3x+6=0$
 

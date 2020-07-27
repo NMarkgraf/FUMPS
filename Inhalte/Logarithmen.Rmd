@@ -21,7 +21,7 @@ library(mosaic)
 
 Für zwei reelle nicht-negative Zahlen $a$ und $b$ gilt:
 
-$c = \log_a b \Longleftrightarrow a^c = b$
+$$c = \log_a b \Longleftrightarrow a^c = b$$
 
 Der **Logarithmus von $b$ zur Basis $a$** gibt also die Antwort auf die Frage
 "Mit welchem Wert muss ich $a$ potenzieren, damit ich als Ergbniss $b$ erhalte?"
@@ -41,7 +41,7 @@ $e \approx 2{,}71828 \, 18284 \, 59045 \, 23536 \, 02874 \, 71352 \, 66249 \, 77
  
 ### Rechenregeln
 
-1. $\log_x(a \cdot b) = \log_x(a) + \log_x(b)$
+1. $\log_x(a \cdot b) = \log_x(a) + \log_x(b)$\setlength{\itemsep}{12pt}
 
 2. $\log_x\left(\frac{a}{b}\right) = \log_x(a) - \log_x(b)$
 
@@ -55,12 +55,13 @@ $e \approx 2{,}71828 \, 18284 \, 59045 \, 23536 \, 02874 \, 71352 \, 66249 \, 77
 
    $\log_x(a) = \frac{\log_b(a)}{\log_b(x)}$ für alle $b>0$
 
+
 ### Übungsaufgaben
 
 Lösen Sie die folgenden Gleichungen:
 
 
-1. $1{,}05^x = 2$
+1. $1{,}05^x = 2$\setlength{\itemsep}{12pt}
 
 2. $1{,}04^{10} \cdot 1{,}03^x = 3$
 

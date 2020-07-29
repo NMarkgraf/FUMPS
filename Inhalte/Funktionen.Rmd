@@ -81,10 +81,19 @@ g\,:\, & D \to Z \\
 
 durch eine 
 
+:::::: {.columns}
+::: {.column width="49%"}
+
 - **Streckung** um $a$ in $y$-Richtung
 - **Streckung** um $b$ in $x$-Richtung
+
+:::
+::: {.column width="49%"}
+
 - **Verschiebung** um $c$ in $x$-Richtung
 - **Verschiebung** um $d$ in $y$-Richtung
+:::
+::::::
 
 Insbesondere ist
 
@@ -131,7 +140,9 @@ f\,:\, & D\to Z \\
 
 ### Lineare Funktionen / Geraden
 
-Unter einer *(affin-)linearen Funktion* $f$ wollen wir die *Geraden* verstehen, 
+::::::::: {.small}
+
+Unter einer *(affin-)linearen Funktion* $f$ wollen wir eine *Gerade* verstehen, 
 welche keine konstante Funktion ist.
 
 Sie lässt sich durch die folgenden *Zuordnungsvorschriften* beschreiben:
@@ -177,7 +188,7 @@ Die Steigung $m$ lautet dann: $m=-\frac{b}{a}$.
 
 Ist $b=0$, also $f(x) = m\cdot x$, so sprechen wir auch von einer 
 *homogen linearen Funktion* oder *Proportionalität*.
-
+:::::::::
 
 ### Übung
 
@@ -223,9 +234,9 @@ Der Manager einer Möbelﬁrma ﬁndet heraus, dass die Herstellung von 100 Stü
 am Tag $2\,200$ US-\$, während die Herstellung von 300 Stühlen am Tag 
 $4\,800$ US-\$ kostet.
 
-- Stellen Sie die Kosten als eine Funktion der Anzahl hergestellter Stühle dar.
+a) Stellen Sie die Kosten als eine Funktion der Anzahl hergestellter Stühle dar.
 
-- Was bedeuten in diesem Zusammenhang Achsenabschnitt und Steigung?
+b) Was bedeuten in diesem Zusammenhang Achsenabschnitt und Steigung?
 
 
 ### Polynome
@@ -257,8 +268,8 @@ Sie liefert für jedes Polynom den dazugehörigen Grad.
 
 Für zwei Polynome $p$ und $q$ gilt dann:
 
-- $\deg(p \cdot q) \leq \deg(p) \cdot \deg(q)$
-- $\deg(p + q) \leq \max\left(\deg(p), \deg(q)\right)$
+- $\displaystyle\deg(p \cdot q) \leq \deg(p) \cdot \deg(q)$
+- $\displaystyle\deg(p + q) \leq \max\left(\deg(p), \deg(q)\right)$
 
 
 ### Rechenregeln für Polynome
@@ -281,15 +292,15 @@ Es seien $p(x)=3x^4 + 2x^2 - 3x + 1$ und $q(x)= x^3-2x+3$.
 
 Berechnen Sie:
 
-1. $p + q=$\setlength{\itemsep}{12pt}
+a) $\displaystyle p + q=$\setlength{\itemsep}{12pt}
 
-2. $p - q=$
+b) $\displaystyle p - q=$
 
-3. $p \cdot q=$
+c) $\displaystyle p \cdot q=$
 
-4. $p^2 = p \cdot p =$
+d) $\displaystyle p^2 = p \cdot p =$
 
-5. $q^2 - q=q \cdot (q - 1)=$
+e) $\displaystyle q^2 - q=q \cdot (q - 1)=$
 
 
 ### Polynomdivision
@@ -374,13 +385,13 @@ f\,:\, & D\to Z \\
 
 Berechnen Sie die folgenden Ausdrücke:
 
-1. $\displaystyle (x^3-3x^2+3x-1):(x-1)$\setlength{\itemsep}{12pt}
+a) $\displaystyle (x^3-3x^2+3x-1):(x-1)$\setlength{\itemsep}{12pt}
 
-2. $\displaystyle (x^3+3x^2+3x+1):(x-1)$
+b) $\displaystyle (x^3+3x^2+3x+1):(x-1)$
 
-3. $\displaystyle (x^4-5x^3+2x-1):(x^2-2x+1)$
+c) $\displaystyle (x^4-5x^3+2x-1):(x^2-2x+1)$
 
-4. $\displaystyle (-x^5+x^4-x^3+x^2-x+1):(2x^2-2x+1)$
+d) $\displaystyle (-x^5+x^4-x^3+x^2-x+1):(2x^2-2x+1)$
 
 
 ### Übung {include-only=LangeFassung}
@@ -514,13 +525,13 @@ mit $b = -2\cdot a \cdot x_s \cdot x$ und $c =  a \cdot x_s^2 + y_s$
 
 **Zum Beispiel:**
 
-- $-2(x-2)^2+2 = -2x^2 + 8x - 6$\setlength{\itemsep}{12pt}
+- $\displaystyle -2(x-2)^2+2 = -2x^2 + 8x - 6$\setlength{\itemsep}{12pt}
 
-- $-2(x+2)^2-2 = -2x^2 - 8x - 10$
+- $\displaystyle -2(x+2)^2-2 = -2x^2 - 8x - 10$
 
-- $\phantom{-}2(x-2)^2-2 = \phantom{-}2x^2 - 8x + 6$
+- $\displaystyle\phantom{-}2(x-2)^2-2 = \phantom{-}2x^2 - 8x + 6$
 
-- $\phantom{-}2(x+2)^2+2 = \phantom{-}2x^2 + 8x+ 10$
+- $\displaystyle\phantom{-}2(x+2)^2+2 = \phantom{-}2x^2 + 8x+ 10$
 
 ::::
 :::
@@ -691,16 +702,15 @@ $$ |x| :=
 \begin{cases}
 \ \;\;\;\ x &\mathrm{\;\;f\ddot ur\;\;} x \ge 0\\
 \ -x &\mathrm{\;\;f\ddot ur\;\;} x < 0
-\end{cases}
-$$
+\end{cases}$$
 
 Für reelle Zahlen ist $|x| = \sqrt{x^2}$, aber auch $|x|= \max(x, -x)$.
 
 **Beispiele:**
 Folgende Zahlenbeispiele zeigen die Funktionsweise der Betragsfunktion.
 
-- $|3| = 3$\setlength{\itemsep}{12pt}
-- $|{-4}| = -(-4) = 4$
+- $\displaystyle |3| = 3$\setlength{\itemsep}{12pt}
+- $\displaystyle |{-4}| = -(-4) = 4$
 
 
 ### Abstandsfunktion
@@ -716,9 +726,9 @@ gegeben.
 
 **Beispiele:**
 
-- $d(-1, 1) = |-1 - 1| = |-2|= 2$\setlength{\itemsep}{12pt}
-- $d(0, 5) = |0 - 5| = |-5| = 5$
-- $d(5, 1) = |5 - 1| = |4| = 4$ 
+- $\displaystyle d(-1, 1) = |-1 - 1| = |-2|= 2$\setlength{\itemsep}{12pt}
+- $\displaystyle d(0, 5) = |0 - 5| = |-5| = 5$
+- $\displaystyle d(5, 1) = |5 - 1| = |4| = 4$ 
 
 
 ### Rechenregeln für den Betrag und Abstand
@@ -735,12 +745,13 @@ gegeben.
 
 ### Gleichungen mit dem (Absolut-)Betrag
 
-Aus $|a| = b$ folgt für reelle Zahlen $>a = b$ oder $a = -b$. 
+Aus $|a| = b$ folgt für alle reelle Zahlen $a = b$ oder $a = -b$. 
 Ist jedoch $b < 0$, dann ist $|a| = -b$.
 
 Als Beispiel sind alle reellen Zahlen $x$ gesucht, welche die Gleichung $|x+3| = 5$ erfüllen.
 
 Man rechnet wie folgt:
+
 $$\begin{aligned}
   |x+3| = 5 &\Leftrightarrow x+3 = 5 \text{ oder } x+3 = -5 \\
             &\Leftrightarrow x = 5-3 \text{ oder } x = -5-3 \\
@@ -748,6 +759,54 @@ $$\begin{aligned}
   \end{aligned}$$
 
 Die Gleichung besitzt also genau zwei Lösungen für $x$, nämlich $2$ und $-8$.
+
+
+### Intervalle
+
+::: {.small}
+
+Zusammenhängende Bereiche der *reellen* Zahlen werden **Intervalle** genannt.
+Man unterscheidet zwischen **offenen**, **halb-offenen** und 
+**(ab)geschlossenen** *Intervallen*, je nachdem welche Randwerte zu dem Bereich 
+gehören. 
+
+Seien im folgenden $a \leq b$ zwei reelle Zahlen.
+
+- Das **offenes Intervall** von $a$ bis $b$
+  $$(a;\, b) = ]a;\, b[ = \{x \in \mathbf{R} \,|\, a < x < b\}$$
+  enthält alle reellen Zahlen zwischen $a$ und $b$, nicht jedoch $a$ bzw. $b$.
+  
+- Das **halb-offene Intervall** von $a$ bis $b$ gibt es in zwei Ausführungen:
+  
+  1.  Von $a$ einschliesslich bis $b$ (ohne $b$ aber)
+      $$[a;\, b) = [a;\, b[ = \{x \in \mathbf{R} \,|\, a \leq x < b\}$$
+  
+  2.  Von $a$ (ohne $a$) bis einschliesslich $b$
+      $$(a;\, b] = ]a;\, b] = \{x \in \mathbf{R} \,|\, a < x \leq b\}$$
+
+- Das **abgeschlossene Intervall** von $a$ und $b$
+  $$[a;\, b] = \{x \in \mathbf{R} \,|\, a \leq x \leq b\}$$
+  welches sowohl $a$ als auch $b$ enthält.
+
+:::
+
+
+### Übung
+
+Geben sie für die folgenden Bereiche jeweils ein Intervall an:
+
+
+a) Alle reellen Zahlen zwischen $-2$ und $5$, beide einschließlich.\setlength{\itemsep}{12pt}
+
+b) Alle reellen Zahlen zwischen $-e$ und $\pi$, beide Zahlen gehören nicht zum Bereich.
+
+c) Alle reelle Zahlen die größer $\sqrt{2}$ sind, aber nicht größer als $3$.
+
+d) Alle reellen $x$-Werte, bei denen die Funktion $x^2-4$ einen negativen Wert liefert.
+
+e) Alle reellen $x$-Werte, bei denen die Funktion $x^2-9$ keinen positiven Wert liefert.
+
+f) Alle ganzenzahligen Werte zwischen $-1$ und $0$.
 
 
 ### Unleichungen mit dem (Absolut-)Betrag
@@ -759,11 +818,13 @@ $$a| \geq b \Leftrightarrow a \leq -b \text{ oder } b \leq a$$
 
 Seien z.B. alle reellen Zahlen $x$ mit $|x-3| \leq 9$ gesucht,
 dann rechnet man:
+
 $$\begin{aligned}
   |x-3| \leq 9 & \Leftrightarrow -9 \leq x - 3 \leq 9 \\
                & \Leftrightarrow -9 + 3 \leq x \leq 9 + 3 \\
                & \Leftrightarrow -6 \leq x \leq 12
   \end{aligned}$$
+  
 Als Lösung erhält man alle $x$ aus dem Intervall $[-6;\, 12]$.
 
 Allgemein gilt für reelle Zahlen $x$, $m$ und $r$:

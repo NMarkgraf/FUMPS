@@ -24,42 +24,42 @@ library(mosaic)
 
 **Potenzregeln:**
 
-1. $a^0 \stackrel{\text{def}}{=} 1$\setlength{\itemsep}{12pt}
+1. $\displaystyle a^0 \stackrel{\text{def}}{=} 1$\setlength{\itemsep}{12pt}
 
-2. $a^x \cdot a^y = a^{x+y}$
+2. $\displaystyle a^x \cdot a^y = a^{x+y}$
 
-3. $a^x \cdot b^x = (a \cdot b)^x$
+3. $\displaystyle a^x \cdot b^x = (a \cdot b)^x$
 
-4. $\left(a^x\right)^y = a^{x \cdot y}$
+4. $\displaystyle\left(a^x\right)^y = a^{x \cdot y}$
 
-5. $a^{-x} = \frac{1}{a^x}$
+5. $\displaystyle a^{-x} = \frac{1}{a^x}$
 
-6. $\frac{a^x}{a^y} = a^{x-y}$
+6. $\displaystyle\frac{a^x}{a^y} = a^{x-y}$
 
-7. $\frac{a^x}{b^x} = \left(\frac{a}{b}\right)^x$
+7. $\displaystyle\frac{a^x}{b^x} = \left(\frac{a}{b}\right)^x$
 
-8. $\sqrt[n]{a} \stackrel{\text{def}}{=} a^{\frac{1}{n}}$
+8. $\displaystyle\sqrt[n]{a} \stackrel{\text{def}}{=} a^{\frac{1}{n}}$
 
 :::
 ::: {.column width="49%"}
 
 **Beispiele:**
 
-1. $5^0 = 1$\setlength{\itemsep}{12pt}
+1. $\displaystyle 5^0 = 1$\setlength{\itemsep}{12pt}
 
-2. $2^3 \cdot 2^4 = 2^{3+4} = 2^7$
+2. $\displaystyle 2^3 \cdot 2^4 = 2^{3+4} = 2^7$
 
-3. $3^5 \cdot 4^5 = (3 \cdot 4)^5$
+3. $\displaystyle 3^5 \cdot 4^5 = (3 \cdot 4)^5$
 
-4. $\left(2^3\right)^4 = 2^{3\cdot 4} = 2^{12}$
+4. $\displaystyle\left(2^3\right)^4 = 2^{3\cdot 4} = 2^{12}$
 
-5. $2^{-3} = \frac{1}{2^3}$
+5. $\displaystyle 2^{-3} = \frac{1}{2^3}$
 
-6. $\frac{6^4}{6^2} = 6^{4-2}=6^2$
+6. $\displaystyle\frac{6^4}{6^2} = 6^{4-2}=6^2$
 
-7. $\frac{10^5}{5^5} = \left(\frac{10}{5}\right)^5=2^5$
+7. $\displaystyle\frac{10^5}{5^5} = \left(\frac{10}{5}\right)^5=2^5$
 
-8. $\sqrt[5]{32} = 32^{\frac{1}{5}} =32^{0{,}2} = 2$
+8. $\displaystyle\sqrt[5]{32} = 32^{\frac{1}{5}} =32^{0{,}2} = 2$
 
 :::
 ::::::
@@ -67,17 +67,29 @@ library(mosaic)
 
 ### Übungsaufgaben
 
-a) $\frac{\left(2^2\right)^3 \cdot \left(2^2\right)^4}{2^{14}}=$\setlength{\itemsep}{12pt}
+:::::: {.columns}
+::: {.column width="49%"}
 
-b) $\frac{5^7\cdot \left(2 \cdot 5\right)^3\cdot 2^7}{\left(2 \cdot 2 \cdot 5\right)^7} =$ 
+a) $\displaystyle\frac{\left(2^2\right)^3 \cdot \left(2^2\right)^4}{2^{14}}=$\setlength{\itemsep}{12pt}
 
-...
+b) $\displaystyle\frac{5^7\cdot \left(2 \cdot 5\right)^3\cdot 2^7}{\left(2 \cdot 2 \cdot 5\right)^7}=$ 
 
-a) $\sqrt{\sqrt{16a^2x^2}} \cdot \sqrt{a^3x} \cdot \sqrt[3]{a^{-6}x^{-3}}=$
+c) $\displaystyle\frac{\left(2^2\cdot3\right)^2\cdot7^4\cdot\left(2\cdot3\right)^2}{2 \cdot(7 \cdot 3 \cdot 2)^{4}}=$
 
-b) $\sqrt{2^6y^4}\cdot\left(x^4 \cdot y^8\right)\cdot x \cdot \left(\sqrt{2^4}\right)^{-1}=$
+d) $\displaystyle 4 \cdot a^{(m+1)n} \cdot a^{m-n} \cdot\left(a^{mn+m}\right)^{-1}=$
 
-...
+:::
+::: {.column width="49%"}
+
+a) $\displaystyle\sqrt{\sqrt{16a^2x^2}} \cdot \sqrt{a^3x} \cdot \sqrt[3]{a^{-6}x^{-3}}=$\setlength{\itemsep}{14pt}
+
+b) $\displaystyle\sqrt{2^6y^4}\cdot\left(x^4 \cdot y^8\right)\cdot x \cdot \left(\sqrt{2^4}\right)^{-1}=$
+
+c) $\displaystyle\left(\sqrt[3]{a^{0{,}6}} \cdot \sqrt[4]{a^{-0{,}4}}\right)^{10}=$
+
+d) $\displaystyle\sqrt[3]{16xy^4}\sqrt[3]{4x^2y^2}\sqrt[3]{x^{-3}y^{-6}}=$
+:::
+::::::
 
 
 ```{r finish-Potenzgesetze, include=FALSE}

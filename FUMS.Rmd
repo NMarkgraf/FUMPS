@@ -53,9 +53,6 @@ childrenToInclude <- c(
     "Logarithmen",
     "QuadratischeGleichungen",
     "Funktionen",
-#    "Funktionen",
-#    "Geraden",
-#    "QuadratischeFunktionen",
      ""
 )
 if (FALSE) { # Zum debuggen auf TRUE setzen!
@@ -65,7 +62,6 @@ includeChild <- function(name, children=childrenToInclude, all=FALSE) {
     ifelse(all, TRUE, (name %in% children))
 }
 ```
-
 
 
 ```{r child = './Inhalte/Einleitung.Rmd', eval=includeChild("Einleitung")}
@@ -94,6 +90,7 @@ includeChild <- function(name, children=childrenToInclude, all=FALSE) {
 
 ```{r child = './Inhalte/Funktionen.Rmd', eval = includeChild("Funktionen")}
 ```
+
 
 ```{r finalize, include=FALSE}
 # ---------------------------------------------------------------------------

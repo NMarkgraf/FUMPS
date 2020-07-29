@@ -37,23 +37,23 @@ Der **Logarithmus von $b$ zur Basis $a$** gibt also die Antwort auf die Frage
 
 Dabei ist $e$ die Eulersche Zahl: 
 
-$e \approx 2{,}71828 \, 18284 \, 59045 \, 23536 \, 02874 \, 71352 \, 66249 \, 77572 \, 47093 \, 69995 \, \dots$
+$\displaystyle e \approx 2{,}71828 \, 18284 \, 59045 \, 23536 \, 02874 \, 71352 \, 66249 \, 77572 \, 47093 \, 69995 \, \dots$
  
 ### Rechenregeln
 
-1. $\log_x(a \cdot b) = \log_x(a) + \log_x(b)$\setlength{\itemsep}{12pt}
+1. $\displaystyle\log_x(a \cdot b) = \log_x(a) + \log_x(b)$\setlength{\itemsep}{12pt}
 
-2. $\log_x\left(\frac{a}{b}\right) = \log_x(a) - \log_x(b)$
+2. $\displaystyle\log_x\left(\frac{a}{b}\right) = \log_x(a) - \log_x(b)$
 
-3. $\log_x\left(a^b\right) = b \cdot log_x(a)$
+3. $\displaystyle\log_x\left(a^b\right) = b \cdot log_x(a)$
 
-4. $\ln\left(e^x\right) = x \cdot \ln(e) = x$
+4. $\displaystyle\ln\left(e^x\right) = x \cdot \ln(e) = x$
 
-5. $e^{\ln(x)} = x$
+5. $\displaystyle e^{\ln(x)} = x$
 
 6. **Taschenrechnerformel**:
 
-   $\log_x(a) = \frac{\log_b(a)}{\log_b(x)}$ für alle $b>0$
+   $\displaystyle\log_x(a) = \frac{\log_b(a)}{\log_b(x)}$ für alle $b>0$
 
 
 ### Übungsaufgaben
@@ -61,13 +61,13 @@ $e \approx 2{,}71828 \, 18284 \, 59045 \, 23536 \, 02874 \, 71352 \, 66249 \, 77
 Lösen Sie die folgenden Gleichungen:
 
 
-1. $1{,}05^x = 2$\setlength{\itemsep}{12pt}
+a) $\displaystyle 1{,}05^x = 2$\setlength{\itemsep}{12pt}
 
-2. $1{,}04^{10} \cdot 1{,}03^x = 3$
+b) $\displaystyle 1{,}04^{10} \cdot 1{,}03^x = 3$
 
-3. $200 \cdot 1{,}02^x = 250$
+c) $\displaystyle 200 \cdot 1{,}02^x = 250$
 
-4. $\ln(e^x) = 13$
+d) $\displaystyle\ln(e^x) = 13$
 
 
 ```{r finish-Logarithmen, include=FALSE}

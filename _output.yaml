@@ -1,7 +1,7 @@
 beamer_presentation:
   latex_engine: pdflatex
   template: NULL
-  toc: true
+  toc: false
   md_extensions: +raw_tex+header_attributes
   fig_caption: false
   highlight: tango

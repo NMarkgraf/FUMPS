@@ -40,6 +40,8 @@ $$\sum\limits_{k=1}^{10}k = 1+2+3+4+5+6+7+8+9+10 = 55$$
 
 Bitte berechnen Sie die folgenden Summen:
 
+::: {.small}
+
 a) $\displaystyle\sum_{i=2}^{5} (i-1)^2=$
 
 b) $\displaystyle\sum_{j=1}^{5} \frac{j-1}{j}=$
@@ -52,6 +54,7 @@ e) $\displaystyle\sum_{k=1}^{10} 3=$
 
 f) $\displaystyle\sum_{i=1}^{10} (40i-220)=$
 
+:::
 
 
 ```{r finish-Summenzeichen, include=FALSE}

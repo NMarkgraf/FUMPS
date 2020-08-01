@@ -1,0 +1,106 @@
+```{r setup-Ungleichungen, include=FALSE}
+# ---------------------------------------------------------------------------
+#% maintainer:
+#%   - Norman Markgraf (nmarkgraf@hotmail.com)
+#%
+# ---------------------------------------------------------------------------
+source("../prelude.R")
+initPart(
+    "Ungleichungen",  # Dateiname ohne Suffix
+    "Ungleichungen"        # Verzeichnisname im Bilderverzeichnis 
+    )
+pathToImages <- getPathToImages()
+# ---------------------------------------------------------------------------
+
+library(mosaic)
+
+```
+
+### (Lineare) Ungleichungen
+
+Eine (lineare) Ungleichung setzt zwei lineare Ausdrücke derart miteinander in 
+Beziehung, dass der Ausdruck auf der linken Seite kleiner ($<$), 
+kleiner oder gleich ($\leq$), größer ($>$) oder größer oder gleich ($\geq$) 
+dem Ausdruck auf der rechten Seite sein soll.
+
+Meistens ist eine unbekannte Variable $x$ in der Gleichung enthalten, und die 
+interessierende Fragestellung ist, welche Werte $x$ annehmen darf, damit die 
+Ungleichung erfüllt ist.
+
+Die Lösung von linearen Ungleichungen erfolgt auf dem gleichen Weg wie bei 
+linearen Gleichungen, das heisst, durch Äquivalenzumformungen wird die 
+unbekannte Variable $x$ auf die eine Seite der Ungleichung gebracht, 
+so dass dann das Lösungsintervall direkt abgelesen werden kann. 
+
+Wenn die Ungleichung im Rahmen der Umformung mit einer negativen Zahl 
+multipliziert oder dividiert wird, kehrt das Ungleichheitszeichen seine 
+Richtung um. 
+
+Wird mit der unbekannten Variable ($x$) multipliziert oder dividiert, muss eine 
+Fallunterscheidung vorgenommen werden, um die Richtung des 
+Ungleichheitszeichens zu bestimmen.
+
+Für weitere Erklärungen und Übungsaufgaben wird auf die angegebene Literatur 
+verwiesen.
+
+
+### Beispiele
+
+::::::::: {.small}
+:::::: {.columns}
+:::{.column width="39%"}
+
+a) $$\begin{aligned}
+    x-5\phantom{+5\,\,\,}    &< 8 \\
+    x-5\color{red}{+5}  &< 8 \color{red}{+5} \\
+    x\phantom{-5+5\,\,\,}&< 13
+   \end{aligned}$$
+
+:::
+::: {.column width="59%"}
+
+b) $$\begin{aligned}
+    x - 3               &\leq \color{red}{3} \cdot (\color{blue}{x-1}) + 5\\
+    x - 3               &\leq \color{red}{3} \cdot \color{blue}{x} + \color{red}{3} \cdot (\color{blue}{-1}) + 5\\
+    x \color{teal}{- 3} &\leq 3 \cdot x \,\,\color{violet}{-3 + 5}\\
+    x                   &\leq 3 \cdot x \color{violet}{+2} \color{teal}{+3}\\
+    x - 3 \cdot x       &\leq 5\\
+    2 \cdot x           &\leq 5\\
+    x                   &\leq 5⁄2 = 2{,}5
+   \end{aligned}$$
+:::
+::::::
+
+
+c) $\displaystyle(x-2)/\color{red}{(x+1)} >2$
+
+   $$\begin{aligned}
+    \color{teal}{\text{1. Fall }}&\color{teal}{x>-1:}   & \color{teal}{\text{2. Fall }} &\color{teal}{ x < -1:}\\
+    x-2 &> 2 \cdot \color{red}{(x+1)}                      & x-2 &< 2 \cdot \color{red}{(x+1)}\\
+    x-2 &> 2 \cdot \color{red}{x}+2 \cdot \color{red}{1}   & x-2 &< 2 \cdot \color{red}{x}+2 \cdot \color{red}{1}\\
+    x   &> 2 \cdot x+2 + 2                    & x &< 2 \cdot x+ 2 + 2\\
+    x-2 \cdot x   &> 4                        & x-2 \cdot x &< 4\\
+    \color{blue}{-}x            &\color{blue}{>} 4                        & \color{blue}{-}x &\color{blue}{<} 4\\
+     x            &\color{blue}{<} \color{blue}{-}4                       & x  &\color{blue}{>} \color{blue}{-}4\\
+   \end{aligned}$$
+   
+   Da im 1. Fall $x>-1$ und $x <-4$ sich ausschliessen ist die Lösung 
+   $-4 < x < -1$.
+   
+:::::::::
+
+### Übung
+
+a) $\displaystyle x-3 < 5$
+a) $\displaystyle 6(x+2) > -3$
+a) $\displaystyle 6(x+2) < -3$
+a) $\displaystyle (x-1) \leq (x+2)$
+a) $\displaystyle (x-3) + 5 > 3 \cdot (x+2)$
+a) $\displaystyle (x+2)/(2x+2) < 2$
+a) $\displaystyle (2x+3)/(-x+2) > -4$
+
+
+```{r finish-Ungleichungen, include=FALSE}
+rm(pathToImages)
+finalizePart()
+```

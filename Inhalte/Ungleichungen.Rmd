@@ -51,9 +51,9 @@ verwiesen.
 :::{.column width="39%"}
 
 a) $$\begin{aligned}
-    x-5\phantom{+5\,\,\,}    &< 8 \\
+    x-5\phantom{+5\,\,}    &< 8 \\
     x-5\color{red}{+5}  &< 8 \color{red}{+5} \\
-    x\phantom{-5+5\,\,\,}&< 13
+    x\phantom{-5+5\,\,}&< 13
    \end{aligned}$$
 
 :::

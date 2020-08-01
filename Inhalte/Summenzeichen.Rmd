@@ -1,0 +1,60 @@
+```{r setup-Summenzeichen, include=FALSE}
+# ---------------------------------------------------------------------------
+#% maintainer:
+#%   - Norman Markgraf (nmarkgraf@hotmail.com)
+#%
+# ---------------------------------------------------------------------------
+source("../prelude.R")
+initPart(
+    "Summenzeichen",  # Dateiname ohne Suffix
+    "Summenzeichen"        # Verzeichnisname im Bilderverzeichnis 
+    )
+pathToImages <- getPathToImages()
+# ---------------------------------------------------------------------------
+
+library(mosaic)
+
+```
+
+
+### Das Summenzeichen
+
+
+Summen über endliche oder unendliche Folgen können statt mit Auslassungspunkten
+auch mit dem **Summenzeichen** geschrieben werden:
+
+$$\sum_{k=m}^{n}a_k =  a_m+a_{m+1}+\dotsb+a_n$$
+
+Das Summenzeichen besteht aus dem großen griechischen Buchstaben **$\sum$** 
+(*Sigma*), gefolgt von *einem* Folgenglied, das durch einen zuvor nicht 
+benutzten Index (hier $k$) bezeichnet wird. 
+Dieser Index wird oft als **Laufindex** bezeichnet. 
+Hierfür wird oft einer der Buchstaben $i, j, k, l, m, n$ verwendet.
+Wenn nicht eindeutig hervorgeht, welche Variable die Zählvariable ist, muss dies im Text angemerkt werden.
+
+**Einfaches Beispiel:** 
+
+$$\sum\limits_{k=1}^{10}k = 1+2+3+4+5+6+7+8+9+10 = 55$$
+
+### Übung
+
+Bitte berechnen Sie die folgenden Summen:
+
+a) $\displaystyle\sum_{i=2}^{5} (i-1)^2=$
+
+b) $\displaystyle\sum_{j=1}^{5} \frac{j-1}{j}=$
+
+c) $\displaystyle\sum_{k=1}^{10} k=$
+
+d) $\displaystyle\sum_{i=1}^{10} 100 \cdot i=$
+
+e) $\displaystyle\sum_{k=1}^{10} 3=$
+
+f) $\displaystyle\sum_{i=1}^{10} (40i-220)=$
+
+
+
+```{r finish-Summenzeichen, include=FALSE}
+rm(pathToImages)
+finalizePart()
+```

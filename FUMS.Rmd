@@ -54,6 +54,7 @@ childrenToInclude <- c(
     "QuadratischeGleichungen",
     "Funktionen",
     "Ungleichungen",
+    "Summenzeichen",
     "Epilog"
 )
 if (FALSE) { # Zum debuggen auf TRUE setzen!
@@ -93,6 +94,9 @@ includeChild <- function(name, children=childrenToInclude, all=FALSE) {
 ```
 
 ```{r child = './Inhalte/Ungleichungen.Rmd', eval = includeChild("Ungleichungen")}
+```
+
+```{r child = './Inhalte/Summenzeichen.Rmd', eval = includeChild("Summenzeichen")}
 ```
 
 ```{r child = './Inhalte/Epilog.Rmd', eval = includeChild("Epilog")}

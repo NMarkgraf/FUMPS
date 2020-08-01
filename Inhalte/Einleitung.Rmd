@@ -17,22 +17,22 @@ library(mosaic)
 ```
 
  
-### Wofür das kurze Fresh Up?
+### Wofür das kurze Fresh-Up?
 
 ::: {.scriptsize}
 Liebe Studierenden,
 
 Mathematik ist eine **Mitmachsportart** und **wer rastet, der rostet**! 
-Für viele von Ihnen ist die Schule, und damit der letzte Kontakt zur Mathematik, 
+Für viele von Ihnen ist die Schule, und damit der letzte Kontakt zur Mathematik,
 schon gefühlte Jahrtausende her.
 
 
 Dennoch haben Sie sich für ein Studium entschieden, welches Mathematik als eine 
-Grundlage ansieht.
+unverszichtbare Grundlage hat.
 Das heißt: Sie müssen sich das Wissen aus vergangenen Tagen wieder aneignen!
 
-Dieses kurze **Fresh Up-Skript** soll Ihnen dabei helfen wieder auf einen, 
-vielleicht schon abgefahren geglaubten, Zug aufzuspringen. 
+Dieses kurze **Fresh Up-Skript** soll Ihnen dabei helfen wieder auf einen,
+vielleicht schon abgefahren geglaubten, Zug aufzuspringen.
 Nutzen Sie es!
 
 So sollten vor dem ersten Vorlesungstermin so viele Aufgaben wie mögich und bis
@@ -41,17 +41,17 @@ Vergleichen Sie ihre Lösungen bitte zuerst mit anderen Kommiliton*innen, bevor
 sie nach einer Musterlösung fragen.
 
 Die Aufgaben sind zwar nicht ‚klausurrelevant‘, das meint, die 
-Aufgabenstellungen werden so nicht in der Klausur vorkommen werden.
-
-**ABER:** Ohne die Kompetenzen, welche Sie zum Lösen der Aufgaben benötigen 
-und die Sie wieder einüben sollen, werden Sie kaum Klausuraufgaben lösen können.
+Aufgabenstellungen werden so nicht in der Klausur vorkommen werden,
+**ABER:** ohne die Kompetenzen, welche Sie zum Lösen der Aufgaben benötigen, 
+werden Sie kaum Klausuraufgaben lösen können.
 
 Weiterhin sollten Sie dringend den Taschenrechner als einen guten Freund ansehen! 
 Und gute Freunde besucht man nicht alle Jubeljahre. 
 Also Anleitung raus (ggf. googlen!) und benutzen!
 
 
-Viel Erfolg wünscht Ihnen Ihr 
+Viel Erfolg wünscht Ihnen Ihr
+
 Norman Markgraf
 :::
 

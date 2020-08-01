@@ -46,7 +46,7 @@ verwiesen.
 
 ### Beispiele
 
-::::::::: {.small}
+::::::::: {.footnotesize}
 :::::: {.columns}
 :::{.column width="39%"}
 
@@ -65,8 +65,8 @@ b) $$\begin{aligned}
     x \color{teal}{- 3} &\leq 3 \cdot x \,\,\color{violet}{-3 + 5}\\
     x                   &\leq 3 \cdot x \color{violet}{+2} \color{teal}{+3}\\
     x - 3 \cdot x       &\leq 5\\
-    2 \cdot x           &\leq 5\\
-    x                   &\leq 5⁄2 = 2{,}5
+    -2 \cdot x           &\leq 5\\
+    x                   &\geq -5\text{ ⁄ }2 = -2{,}5
    \end{aligned}$$
 :::
 ::::::
@@ -75,13 +75,13 @@ b) $$\begin{aligned}
 c) $\displaystyle(x-2)/\color{red}{(x+1)} >2$
 
    $$\begin{aligned}
-    \color{teal}{\text{1. Fall }}&\color{teal}{x>-1:}   & \color{teal}{\text{2. Fall }} &\color{teal}{ x < -1:}\\
+    \color{teal}{\text{1. Fall }}&\color{teal}{x>-1:}      & \color{teal}{\text{2. Fall }} &\color{teal}{ x < -1:}\\
     x-2 &> 2 \cdot \color{red}{(x+1)}                      & x-2 &< 2 \cdot \color{red}{(x+1)}\\
     x-2 &> 2 \cdot \color{red}{x}+2 \cdot \color{red}{1}   & x-2 &< 2 \cdot \color{red}{x}+2 \cdot \color{red}{1}\\
-    x   &> 2 \cdot x+2 + 2                    & x &< 2 \cdot x+ 2 + 2\\
-    x-2 \cdot x   &> 4                        & x-2 \cdot x &< 4\\
-    \color{blue}{-}x            &\color{blue}{>} 4                        & \color{blue}{-}x &\color{blue}{<} 4\\
-     x            &\color{blue}{<} \color{blue}{-}4                       & x  &\color{blue}{>} \color{blue}{-}4\\
+    x   &> 2 \cdot x+2 + 2                                 & x &< 2 \cdot x+ 2 + 2\\
+    x-2 \cdot x   &> 4                                     & x-2 \cdot x &< 4\\
+    \color{blue}{-}x  &\color{blue}{>} 4                   & \color{blue}{-}x &\color{blue}{<} 4\\
+     x            &\color{blue}{<} \color{blue}{-}4        & x  &\color{blue}{>} \color{blue}{-}4\\
    \end{aligned}$$
    
    Da im 1. Fall $x>-1$ und $x <-4$ sich ausschliessen ist die Lösung 
@@ -92,11 +92,17 @@ c) $\displaystyle(x-2)/\color{red}{(x+1)} >2$
 ### Übung
 
 a) $\displaystyle x-3 < 5$
+
 a) $\displaystyle 6(x+2) > -3$
+
 a) $\displaystyle 6(x+2) < -3$
+
 a) $\displaystyle (x-1) \leq (x+2)$
+
 a) $\displaystyle (x-3) + 5 > 3 \cdot (x+2)$
+
 a) $\displaystyle (x+2)/(2x+2) < 2$
+
 a) $\displaystyle (2x+3)/(-x+2) > -4$
 
 

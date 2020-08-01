@@ -402,6 +402,7 @@ $$\begin{aligned}
 f\,:\, & D\to Z \\
        & x \,\mapsto\, y = \sum_{k=0}^n a_k x^k
 \end{aligned}$$
+
 :::
 ::: {.column width="59%"}
 

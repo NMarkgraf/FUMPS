@@ -53,7 +53,7 @@ childrenToInclude <- c(
     "Logarithmen",
     "QuadratischeGleichungen",
     "Funktionen",
-     ""
+    "Epilog"
 )
 if (FALSE) { # Zum debuggen auf TRUE setzen!
   childrenToInclude <- c("Kind-Vorlage")
@@ -91,6 +91,8 @@ includeChild <- function(name, children=childrenToInclude, all=FALSE) {
 ```{r child = './Inhalte/Funktionen.Rmd', eval = includeChild("Funktionen")}
 ```
 
+```{r child = './Inhalte/Epilog.Rmd', eval = includeChild("Epilog")}
+```
 
 ```{r finalize, include=FALSE}
 # ---------------------------------------------------------------------------

@@ -143,9 +143,8 @@ f\,:\, & D\to Z \\
 ::::::::: {.small}
 
 Unter einer *(affin-)linearen Funktion* $f$ wollen wir eine *Gerade* verstehen, 
-welche keine konstante Funktion ist.
-
-Sie lässt sich durch die folgenden *Zuordnungsvorschriften* beschreiben:
+welche keine konstante Funktion ist und sich durch eine der folgenden 
+*Zuordnungsvorschriften* beschreiben lässt:
 
 :::::: {.columns}
 ::: {.column width="49%"}
@@ -272,6 +271,23 @@ Für zwei Polynome $p$ und $q$ gilt dann:
 - $\displaystyle\deg(p + q) \leq \max\left(\deg(p), \deg(q)\right)$
 
 
+### Übungen
+
+Bestimmen Sie den Grad ($\deg(p)$) der folgenden Polynome:
+
+a) $\displaystyle p(x) = 2x^2-3x+1$\setlength{\itemsep}{12pt}
+
+b) $\displaystyle p(x) = -2x^2+3x+2$
+
+c) $\displaystyle p(x) = 8x^5-2x^2+3x^3+2x$
+
+d) $\displaystyle p(x) = 0{,}5\cdot (x-2)(x+2)(x-3)(x+10)-2x^2+3x+2$
+
+e) $\displaystyle p(x) = -2x^2+3x+2+x^3-3x-1$
+
+f) $\displaystyle p(x) = 1+2x+3x^2+10x^3-x^5+x^4$
+
+
 ### Rechenregeln für Polynome
 
 Mit Polynomen kann man ähnlich rechnen, wie mit Zahlen.
@@ -340,9 +356,37 @@ $- x^2  -2x  +2 + \frac{2x - 3}{x^2-1}$.
 (Dies ist eine **gebrochen-rationale Funktion**!)
 
 
+### Auswerten von Polynomen
+
+Um ein (reelwertiges) Polynom, z.B. $p(x)= 3x^3-2x^2+x-1$ an einer Stelle $x_0$,
+z.B. $x_0=2$, auszuwerten gibt es mehrere Möglichkeiten. Z.B.:
+
+1. *Einfaches Einsetzen*:
+   $$\displaystyle\begin{aligned} 
+        p(2) &= 3 \cdot 2^3 - 2 \cdot 2^2 + 2 -1 \\ 
+             &= 3 \cdot 8 - 2 \cdot 4 + 2 -1 \\
+             &= 24 -8 +2 -1 \\
+             &= 17
+     \end{aligned}$$
+    
+2. *Horner-Zerlegung*:
+   $$\displaystyle\begin{aligned} 
+        p(x) &= 3x^3-2x^2+x-1 = \left(\left(3\cdot x-2\right)\cdot x+1\right)\cdot x-1\\ 
+        p(2) &= \left(\left(3\cdot 2-2\right)\cdot 2+1\right)\cdot 2-1\\
+             &= \left(4\cdot 2+1\right)\cdot 2-1 \\
+             &= 9 \cdot 2-1 \\
+             &= 17
+     \end{aligned}$$
+
+
+Der Vorteil der 2. Methode gegenüber der 1. Methode ist, dass sie zur Berechnung 
+des Wertes 
+im 1. Fall (mind.) 4 Multiplikationen und 3 Additionen brauchen 
+im 2. Fall nur 3 Multiplikationen und 3 Additionen.
+
+
 ### Horner-Schema {include-only=LangeFassung}
 
-**Horner-Schema**
 
 
 ### Ganzrationale Funktionen
@@ -851,8 +895,6 @@ Eine *stetige Funktion* $f$, die zwischen zwei Stellen $x_0$ und $x_1$
 das Vorzeichen wechselt, für die also  $f(x_0)\cdot f(x_1) < 0$ gilt, 
 hat zwischen $x_0$ und $x_1$ mindestens eine Nullstelle.
 
-
-### ...
 
 
 ```{r finish-Funktionen, include=FALSE}

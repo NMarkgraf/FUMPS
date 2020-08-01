@@ -1,0 +1,49 @@
+```{r setup-Epilog, include=FALSE}
+# ---------------------------------------------------------------------------
+#% maintainer:
+#%   - Norman Markgraf (nmarkgraf@hotmail.com)
+#%
+# ---------------------------------------------------------------------------
+source("../prelude.R")
+initPart(
+    "Epilog",  # Dateiname ohne Suffix
+    "Epilog"        # Verzeichnisname im Bilderverzeichnis 
+    )
+pathToImages <- getPathToImages()
+# ---------------------------------------------------------------------------
+
+library(mosaic)
+
+```
+
+### Zusammenfassung
+
+**Was haben Sie gelernt?**
+
+- Grundsätzliche Rechenregeln im Umgang mit Zahlen.
+
+- Lösen von linearen und nichtlinearen Gleichungen mit Hilfe der Bruchrechnung, 
+  Potenzrechnung und des Logarithmus.
+
+- Quadratische Gleichungen können mit der $abc$- oder $pq$-Formel gelöst 
+  werden.
+
+- Das Summenzeichen vereinfacht die Darstellung längerer Summen.
+
+- Das Umformen von (linearen) Ungleichungen
+
+
+**Was können Sie damit anfangen?**
+
+- Eigene Berechnungen durchführen und fremde Berechnungen nachvollziehen.
+
+- Fragestellungen, die in Gleichungen formuliert werden, lösen.
+
+- Nachfolgende mathematische Fragestellungen in der Herleitung verstehen und 
+  in der Anwendung durchführen.
+
+
+```{r finish-Epilog, include=FALSE}
+rm(pathToImages)
+finalizePart()
+```

@@ -51,9 +51,9 @@ verwiesen.
 :::{.column width="39%"}
 
 a) $$\begin{aligned}
-    x-5\phantom{+5\,\,\,}    &< 8 \\
+    x-5\phantom{+5\,\,}    &< 8 \\
     x-5\color{red}{+5}  &< 8 \color{red}{+5} \\
-    x\phantom{-5+5\,\,\,}&< 13
+    x\phantom{-5+5\,\,}&< 13
    \end{aligned}$$
 
 :::
@@ -90,6 +90,9 @@ c) $\displaystyle(x-2)/\color{red}{(x+1)} >2$
 :::::::::
 
 ### Übung
+
+Geben Sie jeweils den Bereich der $x$ Werte an, welche die folgenden 
+Ungleichungen erfüllen.
 
 a) $\displaystyle x-3 < 5$
 

@@ -55,5 +55,6 @@ include_exclude.log
 style.log
 typography.log
 cachecontrol.R
+Inhalte/*.html
 
 pandoc-filter/__pycache__

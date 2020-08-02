@@ -55,6 +55,7 @@ childrenToInclude <- c(
     "Funktionen",
     "Ungleichungen",
     "Summenzeichen",
+    "Produktzeichen",
     "Epilog"
 )
 if (FALSE) { # Zum debuggen auf TRUE setzen!
@@ -97,6 +98,9 @@ includeChild <- function(name, children=childrenToInclude, all=FALSE) {
 ```
 
 ```{r child = './Inhalte/Summenzeichen.Rmd', eval = includeChild("Summenzeichen")}
+```
+
+```{r child = './Inhalte/Produktzeichen.Rmd', eval = includeChild("Produktzeichen")}
 ```
 
 ```{r child = './Inhalte/Epilog.Rmd', eval = includeChild("Epilog")}

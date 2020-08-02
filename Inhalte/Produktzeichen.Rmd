@@ -1,0 +1,63 @@
+```{r setup-Produktzeichen, include=FALSE}
+# ---------------------------------------------------------------------------
+#% maintainer:
+#%   - Norman Markgraf (nmarkgraf@hotmail.com)
+#%
+# ---------------------------------------------------------------------------
+source("../prelude.R")
+initPart(
+    "Produktzeichen",  # Dateiname ohne Suffix
+    "Produktzeichen"        # Verzeichnisname im Bilderverzeichnis 
+    )
+pathToImages <- getPathToImages()
+# ---------------------------------------------------------------------------
+
+library(mosaic)
+
+```
+
+
+### Das Produktzeichen
+
+
+Produkte über endliche oder unendliche Folgen können statt mit Auslassungspunkten
+auch mit dem **Produktzeichen** geschrieben werden:
+
+$$\prod_{k=m}^{n}a_k =  a_m \cdot a_{m+1}\cdot \dotsb \cdot a_n$$
+
+Das Produktzeichen besteht aus dem großen griechischen Buchstaben **$\prod$** 
+(*Pi*), gefolgt von *einem* Folgenglied, das durch einen zuvor nicht 
+benutzten Index (hier $k$) bezeichnet wird. 
+Dieser Index wird oft als **Laufindex** bezeichnet. 
+Hierfür wird oft einer der Buchstaben $i, j, k, l, m, n$ verwendet.
+Wenn nicht eindeutig hervorgeht, welche Variable die Zählvariable ist, muss dies im Text angemerkt werden.
+
+**Einfaches Beispiel:** 
+
+$$\prod\limits_{k=1}^{10}k = 1\cdot 2\cdot3 \cdot 4 \cdot 5 \cdot 6 \cdot 7 \cdot 8 \cdot 9 \cdot 10 = 10! = 3\,628\,800$$
+
+### Übung
+
+Bitte berechnen Sie die folgenden Summen:
+
+::: {.small}
+
+a) $\displaystyle\prod_{i=2}^{5} (i-1)^2=$
+
+b) $\displaystyle\prod_{j=1}^{5} \frac{j+1}{j}=$
+
+c) $\displaystyle\prod_{k=1}^{8} k=$
+
+d) $\displaystyle\prod_{i=-100}^{100} 100 \cdot i=$
+
+e) $\displaystyle\prod_{k=1}^{10} 3=$
+
+f) $\displaystyle\prod_{i=1}^{10} (40i-220)=$
+
+:::
+
+
+```{r finish-Produktzeichen, include=FALSE}
+rm(pathToImages)
+finalizePart()
+```

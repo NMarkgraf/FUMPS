@@ -18,8 +18,8 @@ library(mosaic)
 
 ### (Univariate) Funktion
 
-Unter einer (**univariaten**) **Funktionen** (oder **Abbilung**), 
-also Funktionen in einer Variabeln, verstehen wir:
+Unter einer (**univariaten**) **Funktion** (oder **Abbilung**), 
+also *Funktionen in einer Variable*, verstehen wir:
 
 $$\begin{aligned}
 f\,:\, & D \to Z \\
@@ -118,7 +118,7 @@ ist eine Parallele zur X-Achse:
 $$G_f = \left\{(x, c) \,|\, c \in Z \wedge \forall x \in D \right\}$$
 
 
-### Beispiele
+### Beispiele {include-only=LangeFassung}
 
 a) Im Allgemeinen muss $f$ nicht immer eine reellwertige Funktion sein. 
    Betrachten wir als Beispiel einmal die folgende Funktion auf dem 
@@ -140,7 +140,7 @@ f\,:\, & D\to Z \\
 
 ### Lineare Funktionen / Geraden
 
-::::::::: {.small}
+::::::::: {.footnotesize}
 
 Unter einer *(affin-)linearen Funktion* $f$ wollen wir eine *Gerade* verstehen, 
 welche keine konstante Funktion ist und sich durch eine der folgenden 
@@ -164,23 +164,23 @@ Die Steigung $m$ lautet dann: $m=-\frac{b}{a}$.
 ::: 
 ::::::
 
-
+\smallskip
 
 :::::: {.columns}
 ::: {.column width="49%"}
 
 **Punkt-Steigungsform:**
 $$y = f(x) = m \cdot (x-x_0) + b$$
-Mit der *Steigung* $m$ und dem Y-Achsenabschnitt $b$. 
-Die Nullstelle $a$ von $f$ lautet: $a=-\frac{b}{m}$
+Mit der *Steigung* $m$ und dem Y-Achsenabschnitt $b=f(x_0)$. 
+Die Nullstelle $a$ von $f$ lautet: $a=x_0-\frac{b}{m}$
 
 :::
 ::: {.column width="49%"}
 
 **Linear Faktorform:**
 $$y = m \cdot (x-x_0)$$
-Mit dem Y-Achsenabschnitt $b \neq 0$ und der Nullstelle $a \neq 0$. 
-Die Steigung $m$ lautet dann: $m=-\frac{b}{a}$. 
+Mit dem Y-Achsenabschnitt $-mx_0$, der Nullstelle $x_0$ und 
+der Steigung $m$.
 ::: 
 ::::::
 
@@ -198,7 +198,11 @@ bestimmen.
 
 Geben Sie für folgenden zwei Punkte ($P$ und $Q$) bzw. für den Punkt $P$ und 
 die Steigung $m$ jeweils die lineare Funktion in der Steigungsform und 
-der Normalenform an:
+der Normalenform an. Sizzieren Sie jeweils die Funktion:
+
+
+:::::: {.columns}
+::: {.column width="49%"}
 
 a) $P=(1; 2)$, $Q=(2; 4)$
 
@@ -206,19 +210,27 @@ b) $P=(100; 50)$, $Q=(-5; 75)$
 
 c) $P=(5; 5)$, $m=-2$
 
+:::
+::: {.column width="49%"}
+
 d) $P=(2; 4)$, $m=4$
 
 e) $P=(1; 7)$, $m=7$
 
-**Zusatzfrage:** Ist eine der obigen Funktionen *homogen lineare*? -- 
+f) $P=(0; 5)$, $Q=(6; 0)$
+
+:::
+::::::
+
+**Zusatzfrage:** Ist eine der obigen Funktionen *homogen linear*? -- 
 Falls ja, welche und wieso?
 
 
 ### Übung
 
-Betrachten Sie den Markt für ein Produkt ($P$=Preis, $x$=(Absatz-)Menge), 
+Betrachten Sie den Markt für ein Produkt ($P$=Preis; $x$=(Absatz-)Menge), 
 für das aufgrund von Erfahrungen die beiden Preis-Verkaufsmengenkombinationen 
-$(P_1, x_1) = (30, 100)$ und  $(P_2, x_2) = (25, 150)$ vorliegen.
+$(P_1; x_1) = (30; 100)$ und  $(P_2; x_2) = (25, 150)$ vorliegen.
 
 a) Wie lautet die Nachfragefunktion, wenn eine lineare Beziehung unterstellt 
    wird?
@@ -601,12 +613,14 @@ Dabei sind $a \neq 0$, $b$, $c$ und $d$ die *Koeffizienten* der Funktion.
 
 ### Potenzfunktionen / Wurzelfunktionen
 
-Als **Potenzfunktionen** bezeichnen wir eind Funktion der Form:
+Als **Potenzfunktionen** bezeichnen wir ein Funktion der Form:
 
 $$f : x \mapsto a x^r \qquad a, r \in \mathbf{R}.$$
 
-Ist der **Exponent** $r$ darstellbar durch $r= \frac{1}{n}$ für ein 
-$n \in \mathbf{N}$, so nennen wir die Funktion auch **Wurzelfunktion**.
+Ist der **Exponent** $r$ darstellbar durch $r = \frac{1}{n}$ für eine natürliche 
+Zahl $n$, so nennen wir die Funktion auch **Wurzelfunktion** und schreiben
+
+$$a \cdot \sqrt[n]{x} \quad\text{ für } \quad a \cdot x^{\frac{1}{n}}$$
 
 <!-- -->
 

@@ -42,13 +42,13 @@ umformen.
 ### Lösung quadratischer Gleichungen
 
 Die Lösungen der allgemeinen Form lassen sich anhand der **$abc$- oder auch "Mitternachts"-Formel**
-$$x_{1,2} = \frac{-b\pm\sqrt{b^2-4ac}}{2a},$$
+$$x_{1,2} = \frac{-b\pm\sqrt{b^2-4ac}}{2a} = -\frac{b}{2a} \pm \sqrt{\left(\frac{b}{2a}\right)^2-\frac{c}{a}},$$
 die der *Normalform* mit Hilfe der **$pq$-Formel**
 $$x_{1,2} = -\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2-q}$$
 bestimmen. 
 
 Die Anzahl der möglichen reellwertigen Lösungen ist durch die **Diskriminante**
-$$D = \left(\frac{p}{2}\right)^2-q = \left(\frac{b}{2a}\right)^2-c$$
+$$D = \left(\frac{p}{2}\right)^2-q = \left(\frac{b}{2a}\right)^2-\frac{c}{a}$$
 bestimmt. 
 Für Lösungen in den reellen Zahlen gilt:
 
@@ -71,6 +71,10 @@ Sind die Nullstellen $x_1$ und $x_2$ bekannt, so gilt:
 - $\displaystyle y_s = -\frac{a}{4}\cdot\left(x_2-x_1\right)^2$
 
 
+**Beispiel:**
+$$5(x-2)(x+3) = 0 \Leftrightarrow 5x^2+5x-15 = 0 \Leftrightarrow 5\left(x-\frac{1}{2}\right)^2-\frac{125}{4} = 0$$
+
+
 ### (Wurzel-)Satz von Vieta
 
 Für die Lösungen $x_1$ und $x_2$ einer quadratischen Gleichung in Normalform 
@@ -84,6 +88,9 @@ Sind $x_1$ und $x_2$ Lösungen der quadratischen Gleichung, so ist
 
 $$(x-x_1)\cdot(x-x_2) = x^2 \underbrace{-(x_1+x_2)}_{=p}\cdot x + \underbrace{x_1\cdot x_2}_{=q}=0$$
 und die Behauptung gilt, nach *Koeffizientenvergleich*.
+
+**Damit:** $x_1$ und $x_2$ sind Nullstellen von $x^2+px+q$, falls 
+$x_1\cdot x_2=q$ und $-\left(x_1+x_2\right)=p$
 
 
 ### Übungsaufgaben

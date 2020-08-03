@@ -45,13 +45,14 @@ include_graphics(file.path(pathToImages, "Bino2.png"))
 # include_graphics(file.path(pathToImages, "Bino3.png"))
 ```
 
+$\displaystyle 23 \cdot 19 = (21+2)(21-2) = 21^2 - 2^2 = 441 -4 = 437$
 
 [Die Bilder sind vom deutschen Wikipedia Benutzer Mikue, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10677442]{.tiny}
 
 
 ### Übungsaufgaben
 
-Nutzen Sie eine geeignete Binomische Formel um die folgenden Ausdrücke mit nur einem Quadrat(zeichen) zu schreiben:
+Nutzen Sie eine geeignete Binomische Formel um die folgenden Ausdrücke mit möglichst kurz  zu schreiben:
 
 *Bsp:* $\displaystyle x^2+6x+9 = x^2+2\cdot x \cdot 3 + 3^2 = (x+3)^2$
 

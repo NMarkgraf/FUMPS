@@ -72,7 +72,30 @@ Sind die Nullstellen $x_1$ und $x_2$ bekannt, so gilt:
 
 
 **Beispiel:**
-$$5(x-2)(x+3) = 0 \Leftrightarrow 5x^2+5x-15 = 0 \Leftrightarrow 5\left(x-\frac{1}{2}\right)^2-\frac{125}{4} = 0$$
+$$5(x-2)(x+3) = 0 \Leftrightarrow 5x^2+5x-30 = 0 \Leftrightarrow 5\left(x+\frac{1}{2}\right)^2-\frac{125}{4} = 0$$
+
+
+### Scheitelpunkte ohne Nullstellen
+
+Hat die quadratische Funktion $f(x)$ keine Nullstellen, dann kann man mit einem 
+Trick dennoch $x_s$ und $y_s$ bestimmen und damit eine Scheitelpunktsform
+bestimmen.
+
+Statt $f(x)$ betrachten wir für ein festes, aber beliebiges, $x_0$ die
+Funktion $g(x) = f(x) - f(x_0)$. Diese Funktion hat immer (mindestens) eine 
+Nullstelle, in der Regel sogar zwei. Nennen wir diese $x_1$ und $x_2$.
+
+Da nun $x_s$ für $g(x)$ bekannt ist und $f(x)$ nur eine zur $x$-Achse parallel 
+verschobene Version von $g(x)$ ist, ist $x_s$ von $g(x)$ und $f(x)$ der selbe 
+Wert. M.a.W.: Der Scheitelpiunkt von $g(x)$ und $f(x)$ haben liegen auf dem
+selbern Wert der $x$-Achse.
+
+$y_s$ lässt sich nun für $f(x)$ einfach bestimmen, in dem man $x_s$ in $f(x)$ 
+einsetzt, oder aber das $y_s$ von $g(x)$ mit $f(x_0)$ addiert.
+
+
+**Beispiel**: Wir nehmen $x_0 = 2$ und wegen $5\cdot 2^2 + 4 \cdot 2 + 15 = 45$ ist dann:
+$$5x^2 + 5x + 15 = 0 \Leftrightarrow \left[5x^2+5x -30\right] + 45 = 0 \Leftrightarrow 5\left(x+\frac{1}{2}\right)^2 + \frac{55}{4} = 0$$
 
 
 ### (Wurzel-)Satz von Vieta

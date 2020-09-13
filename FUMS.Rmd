@@ -56,7 +56,8 @@ childrenToInclude <- c(
     "Ungleichungen",
     "Summenzeichen",
     "Produktzeichen",
-    "Epilog"
+    "Epilog",
+    "Schlusstext"
 )
 if (FALSE) { # Zum debuggen auf TRUE setzen!
   childrenToInclude <- c("Kind-Vorlage")
@@ -121,6 +122,10 @@ if (usePython) {
 
 ```{r child = './Inhalte/Epilog.Rmd', eval = includeChild("Epilog")}
 ```
+
+```{r child = './Inhalte/Schlusstext.Rmd', eval = includeChild("Schlusstext")}
+```
+
 
 ```{r finalize, include=FALSE}
 # ---------------------------------------------------------------------------

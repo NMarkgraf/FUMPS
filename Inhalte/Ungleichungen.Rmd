@@ -108,6 +108,23 @@ a) $\displaystyle (x+2)/(2x+2) < 2$
 
 a) $\displaystyle (2x+3)/(-x+2) > -4$
 
+::: {.notes}
+
+a) $\displaystyle (-\infty; 8)$
+
+a) $\displaystyle (-2{,}5; \infty)$
+
+a) $\displaystyle (-\infty; -2{,}5)$
+
+a) $\displaystyle \mathbf{R}$
+
+a) $\displaystyle (-\infty; \2)$
+
+a) $\displaystyle (-\infty; -1) \cup \left(-\frac{2}{3}, \infty\right)= \mathbf{R}\setminus \left[-1; -\frac{2}{3}\right]$
+
+a) $\displaystyle (-\infty; 2) \cup \left(\frac{11}{2}, \infty\right)= \mathbf{R}\setminus \left[2; 5{,}5\right]$
+:::
+
 
 ```{r finish-Ungleichungen, include=FALSE}
 rm(pathToImages)

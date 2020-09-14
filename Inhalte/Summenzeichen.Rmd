@@ -57,6 +57,26 @@ f) $\displaystyle\sum_{i=1}^{10} (40i-220)=$
 :::
 
 
+:::::: {.notes}
+
+::: {.small}
+
+a) $\displaystyle\sum_{i=2}^{5} (i-1)^2=$
+
+b) $\displaystyle\sum_{j=1}^{5} \frac{j-1}{j}=$
+
+c) $\displaystyle\sum_{k=1}^{10} k=$
+
+d) $\displaystyle\sum_{i=1}^{10} 100 \cdot i=$
+
+e) $\displaystyle\sum_{k=1}^{10} 3=$
+
+f) $\displaystyle\sum_{i=1}^{10} (40i-220)=$
+
+:::
+
+::::::
+
 ```{r finish-Summenzeichen, include=FALSE}
 rm(pathToImages)
 finalizePart()

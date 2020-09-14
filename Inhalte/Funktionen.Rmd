@@ -865,7 +865,7 @@ d) Alle reellen $x$-Werte, bei denen die Funktion $x^2-4$ einen negativen Wert l
 
 e) Alle reellen $x$-Werte, bei denen die Funktion $x^2-9$ keinen positiven Wert liefert.
 
-f) Alle ganzenzahligen Werte zwischen $-1$ und $0$.
+f) Alle ganzenzahligen Werte zwischen $-1$ und $0$, beide Zahlen gehören nicht zum Bereich.
 
 
 ### Unleichungen mit dem (Absolut-)Betrag

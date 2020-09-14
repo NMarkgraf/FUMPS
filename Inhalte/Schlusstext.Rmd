@@ -25,12 +25,13 @@ Der verwendete Code sowie das Beamer-Template aus dem [NPBT-Projekt](http://gith
 - Datum erstellt: `r Sys.Date()`
 - R Version: `r getRversion()`
 - `mosaic` Version: `r packageVersion("mosaic")`
+- `python` Version: `r reticulate::py_config()$version_string`
 
 Bitte melden Sie Fehler und Verbesserungsvorschläge: [nmarkgraf@hotmail.com](<mailto:nmarkgraf@hotmail.com)
 
 - Autor\*innen: **Hier könnte Ihr Name stehen!**
 
-- Hinweise u.a. von **Hier könnte Ihr Name stehen!**. Vielen Dank!
+- Hinweise u.a. von Sebastian Sauer, **Hier könnte Ihr Name stehen!**. Vielen Dank!
 
 
 ```{r finish-Schlusstext, include=FALSE}

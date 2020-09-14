@@ -1,6 +1,7 @@
 ---
 title: "FUMS"
-subtitle: "**F**resh-**U**p your **M**ath **S**kills"
+subtitle: '**F**resh-**U**p your **M**ath **S**kills'
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}

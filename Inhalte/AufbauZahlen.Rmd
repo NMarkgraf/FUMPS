@@ -267,6 +267,26 @@ h) $\displaystyle(s+t)(s+t)+(s-t)(s-t)+2(s+t)(s-t)=$
 i) $\displaystyle(2s-3t)(3s-2t) - 6(s-t)(s+t) - 12t(t-s) + st =$
 
 
+::: {.notes}
+a) $\displaystyle 3+(- 8) - (- 5) =3 -8 +5 = -5+5 = 0$
+
+b) $\displaystyle -(- x) - 2x + x = x-2x+x = -x+x = 0$
+
+c) $\displaystyle (- x)(- y) =(-1)\cdot x\cdot(-1)\cdot y=(-1)\cdot(-1)\cdot xy=xy$
+
+d) $\displaystyle ((1+6) - (2+3)) + 4=(7-5)+4 = 2+4 =6$
+
+e) $\displaystyle 2+3\cdot(4\cdot 5+6-8) - (-8)(-7) =2+3\cdot(20+6-8) = 2 + 3\cdot 18 = 56$
+
+f) $\displaystyle 4-2\cdot(-3\cdot(5-4)\cdot(-4)\cdot(-1)) + (2-7)(7-2)=4-2\cdot(-3\cdot 1 \cdot  4)+ (-5)(5) = 4-2\cdot (-12) + (-25) = 4+24-25=3$
+
+g) $\displaystyle 2+(4-2\cdot(32-22)) + 4=2-16+4=-10$
+ 
+h) $\displaystyle (s+t)(s+t)+(s-t)(s-t)+2(s+t)(s-t)=(s+t)^2+2(s+t)(s-t)+(s+t)^2=((s+t)+(s-t))^2=s^2$
+
+i) $\displaystyle (2s-3t)(3s-2t) - 6(s-t)(s+t) - 12t(t-s) + st = 0$
+:::
+
 ```{r finish-AufbauZahlen, include=FALSE}
 rm(pathToImages)
 finalizePart()

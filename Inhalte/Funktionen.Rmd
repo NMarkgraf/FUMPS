@@ -872,8 +872,8 @@ f) Alle ganzenzahligen Werte zwischen $-1$ und $0$, beide Zahlen gehören nicht 
 
 Für Ungleichungen können die folgenden Äquivalenzen verwendet werden:
 
-$$|a| \leq b \Leftrightarrow -b \leq a \leq b$$
-$$a| \geq b \Leftrightarrow a \leq -b \text{ oder } b \leq a$$
+$$|a| \leq b \Longleftrightarrow -b \leq a \leq b$$
+$$|a| \geq b \Longleftrightarrow a \leq -b \;\text{ oder }\; b \leq a$$
 
 Seien z.B. alle reellen Zahlen $x$ mit $|x-3| \leq 9$ gesucht,
 dann rechnet man:

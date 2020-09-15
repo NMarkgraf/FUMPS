@@ -17,7 +17,7 @@
 # Rscript --vanilla makerender.R Wissenschaftliche-Methodik
 # ------------------------------------------------------------------------
 
-arguments <- commandArgs(trailingOnly=TRUE)
+arguments <- commandArgs(trailingOnly = TRUE)
 if (length(arguments) > 0) {
   filename <- arguments[1]
   if (length(arguments) > 1) {
@@ -30,11 +30,7 @@ if (length(arguments) > 0) {
 # ------------------------------------------------------------------------
 
 if (!exists("filename")) {
-  # filename <- "Wissenschaftliche-Methodik"
-  # filename <- "MathGrundlDWInfo"
-  #filename <- "Datenerhebung-Statistik"
-  filename <- "QM-Wirtschaftsinformatik"
-  # filename <- "Etwas-R-am-Abend"
+  filename <- "FUMS"
 }
 cat(paste0("makerender ", filename,".Rmd\n"))
 

@@ -92,6 +92,38 @@ j) $\displaystyle\frac{3x\cdot 4y}{4x \cdot 3y}=$
 :::
 ::::::
 
+::::::::: {.notes}
+
+:::::: {.columns}
+::: {.column width="49%"}
+
+a) $\displaystyle\frac{12}{15}=\frac{4}{5}=0{,}8$\setlength{\itemsep}{12pt}
+
+b) $\displaystyle\frac{45}{18}=\frac{5}{2}=2\frac{1}{2}=2{,}5$
+
+c) $\displaystyle\frac{42}{56}=\frac{3}{4}=0{,}75$
+
+d) $\displaystyle\frac{65}{15}=\frac{13}{3}=4\frac{1}{3}=4{,}\overline{3}$
+
+e) $\displaystyle\frac{15x\cdot 12y}{4y\cdot5x\cdot 9}=1$
+
+:::
+::: {.column width="49%"}
+
+f) $\displaystyle\frac{2xy}{(4x-2y)y}=\frac{x}{2x-y}$\setlength{\itemsep}{12pt}
+
+g) $\displaystyle\frac{2x-4y}{x-2y}=2$
+
+h) $\displaystyle\frac{4x^2y}{2x\cdot 2y}=x$
+
+i) $\displaystyle\frac{8x^2-4xy}{16x-8y}=\frac{x}{2}$
+
+j) $\displaystyle\frac{3x\cdot 4y}{4x \cdot 3y}=1$
+
+:::
+::::::
+:::::::::
+
 ### Übungsaufgaben
 
 Berechnen und kürzen Sie weitestmöglich

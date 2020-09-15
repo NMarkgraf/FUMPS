@@ -695,7 +695,7 @@ Es gilt daher $log_b(b^x) =x$.
 Für die Basis $e$ schreibt man $\ln(x)$ statt $\log_e(x)$.
 
 
-```{r warning=FALSE, echo=FALSE, fig.align="center", out.width="90%"}
+```{r warning=FALSE, echo=FALSE, fig.align="center", out.width="75%"}
 library(ggplot2)
 
 myFun <- function(x, b) {

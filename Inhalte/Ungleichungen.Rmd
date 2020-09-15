@@ -118,7 +118,7 @@ a) $\displaystyle (-\infty; -2{,}5)$
 
 a) $\displaystyle \mathbf{R}$
 
-a) $\displaystyle (-\infty; \2)$
+a) $\displaystyle (-\infty; 2)$
 
 a) $\displaystyle (-\infty; -1) \cup \left(-\frac{2}{3}, \infty\right)= \mathbf{R}\setminus \left[-1; -\frac{2}{3}\right]$
 

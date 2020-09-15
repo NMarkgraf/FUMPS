@@ -70,6 +70,18 @@ c) $\displaystyle 200 \cdot 1{,}02^x = 250$
 d) $\displaystyle\ln(e^x) = 13$
 
 
+:::::: {.notes}
+
+a) $\displaystyle x \approx 14{,}20669908289047413032023363185645078125845725323184$\setlength{\itemsep}{12pt}
+
+b) $\displaystyle x \approx 23{,}8983$
+
+c) $\displaystyle x \approx 11{,}2684$
+
+d) $\displaystyle x = 13$
+
+::::::
+
 ```{r finish-Logarithmen, include=FALSE}
 rm(pathToImages)
 finalizePart()

@@ -57,6 +57,26 @@ f) $\displaystyle\prod_{i=1}^{10} (40i-220)=$
 :::
 
 
+:::::: {.notes}
+
+::: {.small}
+
+a) $\displaystyle\prod_{i=2}^{5} (i-1)^2=1^2 \cdot 2^2 \cdot 3^2 \cdot 4^2 = 576$
+
+b) $\displaystyle\prod_{j=1}^{5} \frac{j+1}{j}= 6$
+
+c) $\displaystyle\prod_{k=1}^{8} k=8! = 40\,320$
+
+d) $\displaystyle\prod_{i=-100}^{100} 100 \cdot i = 0$
+
+e) $\displaystyle\prod_{k=1}^{10} 3=3^{10} = 59\,049$
+
+f) $\displaystyle\prod_{i=1}^{10} (40i-220)=-9\,144\,576\,000\,000\,000\,000$
+
+:::
+
+::::::
+
 ### Produkt- / Summenzeichen und die Zählschleife
 
 Das Produkt- und Summenzeichen sind mathematische Versionen der in vielen

@@ -43,11 +43,12 @@ vignettes/*.pdf
 
 FUMS.log
 FUMS.tex
-FUMS.pdf
+FUMS*.pdf
 FUMS.nav
 FUMS.snm
 FUMS.toc
 FUMS.aux
+FUMS.vrb
 FUMS_files/
 FUMS_caches/
 include-notes.tex

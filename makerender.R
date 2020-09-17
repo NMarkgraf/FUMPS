@@ -13,6 +13,14 @@
 # ------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------
+# Setup für Python mit reticulate
+# ------------------------------------------------------------------------
+
+#library(reticulate)
+## Hier muss der Link zum Python stehen!
+reticulate::use_python("/usr/local/bin/python3", required = TRUE) 
+
+# ------------------------------------------------------------------------
 # Aufruf für ein Rmarkdown als R Skript:
 # Rscript --vanilla makerender.R Wissenschaftliche-Methodik
 # ------------------------------------------------------------------------
@@ -38,19 +46,9 @@ cat(paste0("makerender ", filename,".Rmd\n"))
 
 overwrite_old <- TRUE   # Sollen bestehende Dateien überschrieben werden?
 use_private <- TRUE     # Die Werte aus "private/private.R" benutzen?
-Semester <- "SoSe 2020"  # Semesterangabe (SoSe XXXX / WiSe XXXX/XX)
-#Studienort <- "Wuppertal / Gütersloh"  # Studienort(e)
-Studienort <- "Düsseldorf / Münster"
+Semester <- "WiSe 2020/21"  # Semesterangabe (SoSe XXXX / WiSe XXXX/XX)
+Studienort <- iconv("Düsseldorf / Münster")  # Studienort(e)
 midfix <- "" # Anhängsel an den Dateinamen, falls benötigt.
-#
-#
-if (filename == "Etwas-R-am-Abend") {
-  privateVorstellung <<- FALSE  # Zeige die Private Vorstellung
-  showVorlesungsplan <<- FALSE  # Zeige den Vorlesungsplan
-  useLattice <<- FALSE          # ... ggformula zur Darstellung
-  useCrashKurs <<- TRUE
-  UseCache <<- FALSE
-}
 
 # ------------------------------------------------------------------------
 # Hiermit werden die Einstellungen im Rmd-Skript übersprungen:
@@ -67,7 +65,7 @@ source("prelude/prelude_rendertools.R")
 
 UseCache <<- FALSE
 
-privateVorstellung <<- TRUE   # Zeige die Private Vorstellung
+privateVorstellung <<- FALSE   # Zeige die Private Vorstellung
 showVorlesungsplan <<- FALSE  # Zeige den Vorlesungsplan
 showuseR <<- TRUE             # Zeige Umfrage an
 
@@ -134,4 +132,5 @@ makeSkriptOfType("LösungsSkript")
 compileTeXFile(filename_tex, filename_pdf, filename_lsg, 
                "Compile lsg file!", overwrite_old)
 
+cat(paste0("makerender ", filename,".Rmd ... DONE!\n"))
 # ========================================================================

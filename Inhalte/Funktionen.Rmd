@@ -260,7 +260,7 @@ mit den $n \in \mathbf{N}$ **Koeffizienten**
 $a_0, ..., a_{n-1}$ und $a_n\neq 0$ aus einer (Zahlen-)Menge $R$ 
 bezeichnet man als **Polynom vom Grad $n$ über $R$** . 
 
-Die Menge aller Polynome über $R$ bezeichnet mensch mit $R[x]$. 
+Die Menge aller Polynome über $R$ (mit der freien Variable $x$) bezeichnet mensch als $R[x]$. 
 
 
 ### Die Gradfunktion für Polynome
@@ -391,7 +391,7 @@ z.B. $x_0=2$, auszuwerten gibt es mehrere Möglichkeiten. Z.B.:
      \end{aligned}$$
 
 
-Der Vorteil der 2. Methode gegenüber der 1. Methode ist, dass sie zur Berechnung 
+Der Vorteil der 2. gegenüber der 1. Methode ist, dass sie zur Berechnung 
 des Wertes 
 im 1. Fall (mind.) 4 Multiplikationen und 3 Additionen brauchen 
 im 2. Fall nur 3 Multiplikationen und 3 Additionen.
@@ -631,7 +631,7 @@ Eine Funktion $f: x \mapsto b^x$ nennt man **Exponentialfunktion zur Basis $b$**
 
 Dabei ist die **Basis** $b>0$ und $b\neq 1$ eine reelle Zahl. 
 
-```{r warning=FALSE, echo=FALSE, fig.align="center", out.width="95%"}
+```{r warning=FALSE, echo=FALSE, fig.align="center", out.width="75%"}
 library(ggplot2)
 
 myFun <- function(x, b) {
@@ -695,7 +695,7 @@ Es gilt daher $log_b(b^x) =x$.
 Für die Basis $e$ schreibt man $\ln(x)$ statt $\log_e(x)$.
 
 
-```{r warning=FALSE, echo=FALSE, fig.align="center", out.width="75%"}
+```{r warning=FALSE, echo=FALSE, fig.align="center", out.width="65%"}
 library(ggplot2)
 
 myFun <- function(x, b) {

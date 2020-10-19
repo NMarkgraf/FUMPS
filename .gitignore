@@ -53,6 +53,7 @@ FUMS_files/
 FUMS_caches/
 include-notes.tex
 include_exclude.log
+watermark.log
 style.log
 typography.log
 cachecontrol.R
